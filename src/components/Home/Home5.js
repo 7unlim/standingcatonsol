@@ -17,8 +17,8 @@ function Home5() {
     <Container fluid className="home-section" id="home">
         <Container className="home-content">
             <Row>
-            <Col md={12} style = {{ fontSize: '2.5em' }}> 
-            <h1 className="token-heading" style = {{ fontSize: '2.5em' }}>
+            <Col md={12} style = {{ fontSize: '2.3em' }}> 
+            <h1 className="token-heading" style = {{ fontSize: '2.3em' }}>
             <strong className="main-name"> Token</strong>
                 omics
                 {/* <strong className="main-name"> *STD*</strong> */}
