@@ -68,7 +68,7 @@ function App() {
             />
           </Col>
           <Col md={4} style={{ display: 'flex', justifyContent: 'flex-start', marginLeft: '-50px', alignItems: 'center', paddingTop: 50 }}>
-          <CollapsiblePanel title="Create a Wallet" collapse={collapse}>
+          <CollapsiblePanel title={<span><strong className="main-name">Create</strong> a Wallet</span>} collapse={collapse}>
                 <span style={{ fontSize: 25, display: 'flex', justifyContent: 'flex-start', alignItems: 'center', marginLeft: '12px' }}>{text1}</span>
             </CollapsiblePanel>
           </Col>
@@ -87,7 +87,7 @@ function App() {
             />
           </Col>
           <Col md={4} style={{ display: 'flex', justifyContent: 'flex-start', marginLeft: '-50px', alignItems: 'center', paddingTop: 50 }}>
-          <CollapsiblePanel  title="Get some Sol" collapse={collapse}>
+          <CollapsiblePanel title={<span><strong className="main-name">Get</strong> some Sol</span>} collapse={collapse}>
                 <span style={{ fontSize: 25, display: 'flex', justifyContent: 'flex-start', alignItems: 'center', marginLeft: '12px' }}>{text2}</span>
             </CollapsiblePanel>
           </Col>
@@ -106,7 +106,7 @@ function App() {
             />
           </Col>
           <Col md={4} style={{ display: 'flex', justifyContent: 'flex-start', marginLeft: '-50px', alignItems: 'center', paddingTop: 50 }}>
-          <CollapsiblePanel title="Connect to Dexscreener/Jupiter" collapse={collapse}>
+          <CollapsiblePanel title={<span><strong className="main-name">Connect</strong> to DEXscreener/Jupiter</span>} collapse={collapse}>
                 <span style={{ fontSize: 25, display: 'flex', justifyContent: 'flex-start', alignItems: 'center', marginLeft: '12px' }}>{text3}</span>
             </CollapsiblePanel>
           </Col>
@@ -125,7 +125,7 @@ function App() {
             />
           </Col>
           <Col md={4} style={{ display: 'flex', justifyContent: 'flex-start', marginLeft: '-50px', alignItems: 'center', paddingTop: 50 }}>
-          <CollapsiblePanel className="hate" title="Trade for Standing Cat and hold!" collapse={collapse}>
+          <CollapsiblePanel className="hate" title={<span><strong className="main-name">Trade</strong> for <span><strong className="main-name">Standing Cat</strong> and hold!</span></span>} collapse={collapse}>
                 <span style={{ fontSize: 25, display: 'flex', justifyContent: 'flex-start', alignItems: 'center', marginLeft: '12px' }}>{text4}</span>
             </CollapsiblePanel>
           </Col>
@@ -152,7 +152,7 @@ function Home4() {
           </Col> */}
           <center>
           <Col md={12}> 
-            <h1 className="main-name" style ={{ paddingTop: 25, fontSize: 85, color: '#000000' }}>
+            <h1 className="main-name" style ={{ paddingTop: 25, fontSize: 65, color: '#000000' }}>
                 How to Buy
             </h1>
           </Col>

@@ -285,14 +285,14 @@ button:focus {
 }
 
 .heading {
-  font-size: 2.4em !important;
+  font-size: 65px !important;
   /* color: #7E7E7E; */
   color: black;
   padding-left: 50px !important;
 }
 
 .heading-name {
-  font-size: 1.5em !important;
+  font-size: 1.7em !important;
   /* color: #7E7E7E; */
   color:black;
   padding-left: 45px !important;
@@ -355,7 +355,7 @@ button:focus {
 
 .home-about-body {
   padding-top: 50px;
-  font-size: 1.2em !important;
+  font-size: 25px !important;
   text-align: left;
   width: 90%;
   padding-left: 50px

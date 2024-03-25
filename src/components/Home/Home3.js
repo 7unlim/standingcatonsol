@@ -25,7 +25,7 @@ function Home3() {
             />
           </Col>
           <Col md={8} className="home-about-description">
-            <h1 style={{ fontSize: "2.6em" }}>
+            <h1 style={{ fontSize: "65px" }}>
               About <span className="main-name"> Standing Cat </span> 
             </h1>
             <p className="home-about-body">
