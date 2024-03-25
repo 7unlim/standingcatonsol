@@ -251,6 +251,7 @@ button:focus {
 @media (max-width: 767px) {
   .tokens {
     font-size: 14px !important; /* Example of a scaled-down size for mobile */
+    white-space: normal !important
   }
 }
 
