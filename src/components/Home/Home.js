@@ -34,7 +34,7 @@ function Home() {
 
               <h1 className="heading" style ={{ paddingTop: 50 }}>
                 Standing Cat
-                <strong className="main-name"> *STD*</strong>
+                <strong className="main-name"> (STD CAT)</strong>
               </h1>
 
               <h1 className="heading-name" style ={{ paddingTop: 50 }}>
