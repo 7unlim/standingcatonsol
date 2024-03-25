@@ -45,7 +45,7 @@ function CollapsiblePanel({ children, ...props }) {
         // class="btn btn-light"
         // type="button"
         // style="font-size: 50px"
-        style={{ fontSize: '50px', whiteSpace: 'nowrap', paddingTop: 35 }}
+        style={{ fontSize: '2.8em', whiteSpace: 'nowrap', paddingTop: "5%" }}
         class="btn btn-outline-black"
 
 

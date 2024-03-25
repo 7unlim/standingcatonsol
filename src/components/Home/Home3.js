@@ -21,7 +21,7 @@ function Home3() {
               src={catBull}
               alt="home pic"
               className="img-fluid"
-              style={{ maxHeight: "450px" }}
+              style={{ maxHeight: '100%' }}
             />
           </Col>
           <Col md={8} className="home-about-description">

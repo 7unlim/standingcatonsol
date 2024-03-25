@@ -19,7 +19,7 @@ function Home2() {
         <Container className="home-content">
         <center>
           <Col md={12}> 
-            <h1 className="main-name" style ={{ paddingTop: 25, fontSize: 85, color: '#000000' }}>
+            <h1 className="main-name" style ={{ paddingTop: 25, fontSize: "5.5em", color: '#000000' }}>
                 Hi. This is a placeholder
             </h1>
             <h3 style = {{ color: "black" }}>

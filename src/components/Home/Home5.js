@@ -17,9 +17,9 @@ function Home5() {
     <Container fluid className="home-section" id="home">
         <Container className="home-content">
             <Row>
-            <Col md={12}> 
-            <h1 className="token-heading">
-            <strong style = {{ fontSize: 75 }} className="main-name"> Token</strong>
+            <Col md={12} style = {{ fontSize: '2.5em' }}> 
+            <h1 className="token-heading" style = {{ fontSize: '2.5em' }}>
+            <strong className="main-name"> Token</strong>
                 omics
                 {/* <strong className="main-name"> *STD*</strong> */}
               </h1>
@@ -48,13 +48,13 @@ function Home5() {
               </div> */}
             </Col>
               
-            <Col md={5} style={{ paddingLeft: 100, paddingTop: 50, paddingBottom: 5 }}>
+            <Col md={5} style={{ paddingLeft: "1%", paddingTop: "1%", paddingBottom: 5 }}>
               <img
                 // src={homeLogo}
                 src={piechart}
                 alt="home pic"
                 className="img-fluid"
-                style={{ maxHeight: "650px", maxWidth: 500 }}
+                style={{ maxHeight: '100%', maxWidth: '100%' }}
               />
             </Col>
           </Row>

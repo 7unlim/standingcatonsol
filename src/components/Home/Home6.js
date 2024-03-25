@@ -39,7 +39,7 @@ function Home6() {
                 src={thumbsupcat}
                 alt="home pic"
                 className="img-fluid"
-                style={{ maxHeight: "650px", maxWidth: 500 }}
+                style={{ maxHeight: '100%', maxWidth: '100%' }}
                 />
             </Col>
             <br></br>
