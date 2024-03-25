@@ -16,19 +16,11 @@ function Home4() {
   return (
     <Container fluid className="home-section" id="home">
         <Container className="home-content">
-            <Row>
-            <Col md={12} className="tokens"> 
-            <h1 className="token-heading tokens">
-            <strong className="main-name tokens"> Token</strong>
-                omics
-              </h1>
-          </Col>
-            </Row>
           <Row>
             <Col md={7} className="home-header">
 
-              <h1 className="heading" style ={{ paddingTop: 50 }}>
-                <strong>Token Supply</strong>
+              <h1 className="heading">
+                <strong className="main-name">Token</strong>omics
               </h1>
 
               <h1 className="heading-name" style ={{ paddingTop: 50 }}>
