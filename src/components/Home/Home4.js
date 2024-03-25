@@ -19,7 +19,7 @@ function Home4() {
           <Row>
             <Col md={7} className="home-header">
 
-              <h1 className="heading">
+              <h1 className="tokens">
                 <strong className="main-name">Token</strong>omics
               </h1>
               <br></br>
