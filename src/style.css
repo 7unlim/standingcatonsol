@@ -230,7 +230,7 @@ button:focus {
 
 .btn-outline-black {
   font-size: 2.8rem !important;
-  white-space: nowrap !important;
+  white-space: nowrap;
   padding-top: 5% !important;
   word-wrap: break-word !important;
 }
@@ -238,6 +238,7 @@ button:focus {
 @media (max-width: 1284px) { /* Adjust the max-width as needed */
   .btn-outline-black {
     font-size: 2.2rem !important; /* Smaller font size for mobile */
+    white-space: wrap;
     margin-left: 1% !important; /* Adjust the margin as needed */
     word-wrap: break-word !important; /* Ensure long words don't cause overflow */
   }
