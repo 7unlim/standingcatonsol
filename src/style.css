@@ -14,6 +14,18 @@ html {
   --imp-text-color: #c770f0;
 }
 
+html, body {
+  overflow-x: hidden;
+}
+
+body {
+  overflow-x: hidden;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
 .purple {
   color: var(--imp-text-color) !important;
 }
@@ -214,6 +226,61 @@ button:focus {
   animation-iteration-count: infinite; /* Never stop waving :) */
   transform-origin: 70% 70%; /* Pivot around the bottom-left palm */
   display: inline-block;
+}
+
+.btn-outline-black {
+  font-size: 2.8rem;
+  white-space: nowrap;
+  padding-top: 5%
+}
+@media (max-width: 768px) { /* Adjust the max-width as needed */
+  .btn-outline-black {
+    font-size: 2.2rem; /* Smaller font size for mobile */
+    margin-left: 1%; /* Adjust the margin as needed */
+    word-wrap: break-word; /* Ensure long words don't cause overflow */
+  }
+}
+
+.tokens {
+  font-size: 2.2rem
+}
+
+@media (max-width: 768px) {
+  .tokens {
+    font-size: 14px; /* Example of a scaled-down size for mobile */
+  }
+}
+
+.questions {
+  font-size: 2.75rem;
+  margin-bottom: '-150px'
+}
+
+@media (max-width: 768px) { /* Adjust the max-width as needed */
+  .questions {
+    font-size: 1.8rem; /* Smaller font size for mobile */
+    /* margin-left: 1%; Adjust the margin as needed */
+    /* word-wrap: break-word; Ensure long words don't cause overflow */
+  }
+}
+
+.emails {
+  color: #F5DEB3;
+  font-size: 2.4rem;
+  margin-bottom: '-75px'
+  /* fontSize: '2.4rem', marginBottom: '-75px' */
+}
+
+@media (max-width: 768px) {
+  .emails {
+    font-size: 1.4rem; /* Example of a scaled-down size for mobile */
+  }
+}
+
+@media (max-width: 768px) {
+  .numberlol {
+    padding-bottom: 10%; /* Example of a scaled-down size for mobile */
+  }
 }
 
 @keyframes wave-animation {

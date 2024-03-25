@@ -20,14 +20,14 @@ function Home7() {
             <Row>
             <Col md={12}> 
             <h1 className="token-heading">
-            <strong style = {{ fontSize: '2.75em', marginBottom: '-150px' }} className="footer-name"> Questions?</strong>
+            <strong className="footer-name questions"> Questions?</strong>
                 {/* <strong className="main-name"> *STD*</strong> */}
               </h1>
               <br></br>
               <br></br>
               <br></br>
-              <h1 className="token-heading" style = {{ fontSize: '2.4em', marginBottom: '-75px' }}>
-              Feel free to yell at <strong className="numberlol"> alexison.pan@gmail.com</strong>
+              <h1 className="token-heading emails">
+              Feel free to yell at <strong className="emails"> alexison.pan@gmail.com</strong>
               </h1>
           </Col>
             </Row>

@@ -10,54 +10,36 @@ import {
 import { FaLinkedinIn } from "react-icons/fa";
 import catBull from "../../Assets/realcatbull.png";
 import piechart from "../../Assets/piechart.png"
+import { TbHexagonNumber6 } from "react-icons/tb";
+import thumbsupcat from "../../Assets/bestthumbsup.png"
 
 
 function Home5() {
   return (
-    <Container fluid className="home-section" id="home">
+    <Container fluid className="home-buy-section" id="home">
         <Container className="home-content">
-            <Row>
-            <Col md={12} style = {{ fontSize: '2.3em' }}> 
-            <h1 className="token-heading" style = {{ fontSize: '2.3em' }}>
-            <strong className="main-name"> Token</strong>
-                omics
-                {/* <strong className="main-name"> *STD*</strong> */}
-              </h1>
+        <center>
+          <Col md={12}> 
+            <h1 className="main-name" style ={{ fontSize: 65, color: '#000000', marginTop: '-50px' }}>
+                Catmap
+            </h1>
           </Col>
-            </Row>
-          <Row>
-            <Col md={7} className="home-header">
-              {/* <h1 style={{ paddingBottom: 15 }} className="heading">
-                Hi There!{" "}
-                <span className="wave" role="img" aria-labelledby="wave">
-                  👋🏻
-                </span>
-              </h1> */}
-
-              <h1 className="heading" style ={{ paddingTop: 50 }}>
-                <strong>Token Supply</strong>
-              </h1>
-
-              <h1 className="heading-name" style ={{ paddingTop: 50 }}>
-                <strong className="numberlol">XXX </strong>
-                number of tokens in open market yay
-              </h1>
-
-              {/* <div style={{ padding: 60, textAlign: "left" }}>
-                <Type />
-              </div> */}
-            </Col>
-              
-            <Col md={5} style={{ paddingLeft: "1%", paddingTop: "1%", paddingBottom: 5 }}>
-              <img
+          </center>
+            <center>
+            <Col md={5} style={{ paddingLeft: 100, paddingTop: 50, paddingBottom: 5 }}>
+                <img
                 // src={homeLogo}
-                src={piechart}
+                src={thumbsupcat}
                 alt="home pic"
                 className="img-fluid"
                 style={{ maxHeight: '100%', maxWidth: '100%' }}
-              />
+                />
             </Col>
-          </Row>
+            <br></br>
+            <h1 className="main-name" style ={{ fontSize: 35, color: '#000000', marginTop: '50px' }}>
+                Real catmap image will replace this cat sadly
+            </h1>
+            </center>
         </Container>
       </Container>
   );

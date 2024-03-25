@@ -8,27 +8,37 @@ import {
   AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
-import catBull from "../../Assets/realcatbull.png";
-import piechart from "../../Assets/piechart.png"
-import { TbHexagonNumber6 } from "react-icons/tb";
+import catBull from "../../Assets/therealestcatbull.png";
 
 
 function Home2() {
   return (
-    <Container fluid className="home-buy-section" id="home">
-        <Container className="home-content">
-        <center>
-          <Col md={12}> 
-            <h1 className="main-name" style ={{ paddingTop: 25, fontSize: "5.5em", color: '#000000' }}>
-                Hi. This is a placeholder
-            </h1>
-            <h3 style = {{ color: "black" }}>
-              Hopefully I'm able to put the game here
-            </h3>
+    <Container fluid className="home-about-section" id="about">
+      <Container style= {{ paddingTop: "5%" }}>
+        <Row>
+          <Col md={4} style={{ paddingTop: 50 }}>
+            <img
+              src={catBull}
+              alt="home pic"
+              className="img-fluid"
+              style={{ maxHeight: '100%' }}
+            />
           </Col>
-          </center>
-        </Container>
+          <Col md={8} className="home-about-description">
+            <h1 style={{ fontSize: "65px" }}>
+              About <span className="main-name"> Standing Cat </span> 
+            </h1>
+            <p className="home-about-body">
+              Quick BS description of meme coin. Talk about how no tax, no presale, and how this coin will be bullish
+            </p>
+          </Col>
+        </Row>
+        <Row>
+          <Col>
+          </Col>
+        </Row>
       </Container>
+    </Container>
   );
 }
 export default Home2;
