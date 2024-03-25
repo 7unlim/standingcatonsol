@@ -235,7 +235,7 @@ button:focus {
   word-wrap: break-word !important;
 }
 
-@media (max-width: 1284px) { /* Adjust the max-width as needed */
+@media (max-width: 767px) { /* Adjust the max-width as needed */
   .btn-outline-black {
     font-size: 2.2rem !important; /* Smaller font size for mobile */
     white-space: wrap;
@@ -248,7 +248,7 @@ button:focus {
   font-size: 2.2rem !important
 }
 
-@media (max-width: 1284px) {
+@media (max-width: 767px) {
   .tokens {
     font-size: 14px !important; /* Example of a scaled-down size for mobile */
   }
@@ -259,7 +259,7 @@ button:focus {
   margin-bottom: -150px !important
 }
 
-@media (max-width: 1284px) { /* Adjust the max-width as needed */
+@media (max-width: 767px) { /* Adjust the max-width as needed */
   .questions {
     font-size: 1.8rem !important; /* Smaller font size for mobile */
     /* margin-left: 1%; Adjust the margin as needed */
@@ -274,13 +274,13 @@ button:focus {
   /* fontSize: '2.4rem', marginBottom: '-75px' */
 }
 
-@media (max-width: 1284px) {
+@media (max-width: 767px) {
   .emails {
     font-size: 1.4rem !important; /* Example of a scaled-down size for mobile */
   }
 }
 
-@media (max-width: 1284px) {
+@media (max-width: 767px) {
   .numberlol {
     padding-bottom: 10% !important; /* Example of a scaled-down size for mobile */
   }
@@ -354,7 +354,7 @@ button:focus {
   padding-top: -90px !important;
 }
 
-@media (max-width: 1284px) { /* Adjust the max-width as needed */
+@media (max-width: 767px) { /* Adjust the max-width as needed */
   .questions {
     font-size: 1.8rem !important; /* Smaller font size for mobile */
     /* margin-left: 1%; Adjust the margin as needed */
