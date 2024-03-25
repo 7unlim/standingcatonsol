@@ -152,7 +152,7 @@ function Home3() {
             />
           </Col> */}
           <center>
-          <Col md={12}> 
+          <Col md={12} style = {{ marginTop: '10%' }}> 
             <h1 className="main-name" style ={{ paddingTop: 25, fontSize: 65, color: '#000000' }}>
                 How to Buy
             </h1>

@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css?family=Chewy");
+
 html {
   --section-background-color: linear-gradient(
     to bottom left,
@@ -16,6 +18,7 @@ html {
 
 html, body {
   overflow-x: hidden;
+  font-family: 'Chewy' !important
 }
 
 body {
@@ -437,6 +440,7 @@ button:focus {
   /* background-color: #C8B7A9; */
 }
 
+
 .home-about-description {
   color: black !important;
   padding-top: 100px !important;
@@ -449,7 +453,8 @@ button:focus {
   font-size: 25px !important;
   text-align: left;
   width: 90%;
-  padding-left: 50px
+  padding-left: 50px;
+  padding-bottom: 10%;
 }
 
 .home-about-social {
@@ -471,7 +476,7 @@ button:focus {
   position: relative;
   padding-bottom: 70px !important;
   padding-top: 70px !important;
-  background-color: #ECE9E2;
+  background-color: #FAF9F6;
   /* background-color: #80461B; */
   /* background-color: #F6D7B0; */
   /* background-color: #ECE9E2; */
@@ -480,8 +485,9 @@ button:focus {
 
 .home-questions-section {
   position: relative;
-  background-color: #ECE9E2;
+  background-color: #FAF9F6;
   padding-bottom: 70px !important;
+  padding-top: 50px !important;
 }
 
 .home-social-icons {
