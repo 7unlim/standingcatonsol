@@ -14,7 +14,7 @@ import piechart from "../../Assets/piechart.png"
 
 function Home4() {
   return (
-    <Container fluid className="home-section" id="home">
+    <Container fluid className="home-questions-section" id="home">
         <Container className="home-content">
           <Row>
             <Col md={7} className="home-header">
@@ -22,11 +22,13 @@ function Home4() {
               <h1 className="heading">
                 <strong className="main-name">Token</strong>omics
               </h1>
-
+              <br></br>
               <h1 className="heading-name" style ={{ paddingTop: 50 }}>
                 <strong className="numberlol">XXX </strong>
                 number of tokens in open market yay
               </h1>
+              <br></br>
+              <br></br>
 
               {/* <div style={{ padding: 60, textAlign: "left" }}>
                 <Type />
@@ -43,6 +45,10 @@ function Home4() {
               />
             </Col>
           </Row>
+          <br></br>
+          <br></br>
+          <br></br>
+          {/* <br></br> */}
         </Container>
       </Container>
   );

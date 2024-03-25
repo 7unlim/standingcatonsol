@@ -17,7 +17,7 @@ function Home7() {
     <Container fluid className="home-section" id="home">
         <Container className="home-content">
             <center>
-            <Row>
+            <Row className="token-heading">
             <Col md={12}> 
             <h1 className="token-heading">
             <strong className="footer-name"> Questions?</strong>

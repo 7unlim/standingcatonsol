@@ -125,7 +125,7 @@ function App() {
             />
           </Col>
           <Col md={4} style={{ display: 'flex', justifyContent: 'flex-start', marginLeft: '-7%', alignItems: 'center', paddingTop: 50 }}>
-          <CollapsiblePanel className="hate" title={<span><strong className="main-name">Trade</strong> for <span><strong className="main-name">Standing Cat</strong> and hold!</span></span>} collapse={collapse}>
+          <CollapsiblePanel title={<span><strong className="main-name">Trade</strong> for <span><strong className="numberlol">Standing Cat</strong> and hold!</span></span>} collapse={collapse}>
                 <span style={{ fontSize: 25, display: 'flex', justifyContent: 'flex-start', alignItems: 'center', marginLeft: '1.5%' }}>{text4}</span>
             </CollapsiblePanel>
           </Col>
@@ -140,7 +140,7 @@ function App() {
 function Home3() {
 
   return (
-    <Container fluid className="home-buy-section" id="about">
+    <Container fluid className="home-about-section" id="about">
       <Container>
         <Row>
           {/* <Col md={4} style={{ paddingTop: 50 }}>
@@ -193,6 +193,7 @@ function Home3() {
           <Col>
           </Col>
         </Row>
+        <br></br>
       </Container>
     </Container>
   );

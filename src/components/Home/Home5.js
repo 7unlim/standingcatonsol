@@ -16,7 +16,7 @@ import thumbsupcat from "../../Assets/bestthumbsup.png"
 
 function Home5() {
   return (
-    <Container fluid className="home-buy-section" id="home">
+    <Container fluid className="home-about-section" id="home">
         <Container className="home-content">
         <center>
           <Col md={12}> 

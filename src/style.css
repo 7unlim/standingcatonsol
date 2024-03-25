@@ -231,8 +231,10 @@ button:focus {
 .btn-outline-black {
   font-size: 2.8rem !important;
   white-space: nowrap !important;
-  padding-top: 5% !important
+  padding-top: 5% !important;
+  word-wrap: break-word !important;
 }
+
 @media (max-width: 1284px) { /* Adjust the max-width as needed */
   .btn-outline-black {
     font-size: 2.2rem !important; /* Smaller font size for mobile */
@@ -265,9 +267,9 @@ button:focus {
 }
 
 .emails {
-  color: #F5DEB3;
+  color: black;
   font-size: 1.8rem !important;
-  margin-bottom: -75px !important
+  /* margin-bottom: -75px !important */
   /* fontSize: '2.4rem', marginBottom: '-75px' */
 }
 
@@ -346,9 +348,9 @@ button:focus {
 }
 
 .token-heading {
-  font-size: '2.1rem';
+  font-size: 2.4rem;
   color: black;
-  /* padding-top: -55px !important; */
+  padding-top: -90px !important;
 }
 
 @media (max-width: 1284px) { /* Adjust the max-width as needed */
@@ -462,6 +464,12 @@ button:focus {
   /* background-color: #C8B7A9; */
 }
 
+.home-questions-section {
+  position: relative;
+  background-color: #ECE9E2;
+  padding-bottom: 70px !important;
+}
+
 .home-social-icons {
   position: relative !important;
   display: inline-block !important;
@@ -532,6 +540,8 @@ button:focus {
   .footer-copywright {
     text-align: center !important;
   }
+
+  
 
   .footer-body {
     text-align: center !important;
@@ -725,7 +735,7 @@ button:focus {
 
 .footer-name {
   margin-top: -50px;
-  font-size: 2.1rem;
+  font-size: 3.2rem;
   padding-top: -50px;
   color: #F7CAC9;
 }

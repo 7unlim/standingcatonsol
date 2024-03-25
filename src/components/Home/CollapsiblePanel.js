@@ -57,7 +57,7 @@ function CollapsiblePanel({ children, ...props }) {
         // style="padding-top: 50px"
         onClick={() => toggle()}
       >
-        <i className={icon} class="hate"/> {title}
+        <i className={icon} class="btn-outline-black"/> {title}
       </button>
       {/* </Col> */}
       <Collapse className="p-2" isOpen={isCollapse}>

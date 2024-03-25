@@ -13,7 +13,7 @@ import catBull from "../../Assets/therealestcatbull.png";
 
 function Home2() {
   return (
-    <Container fluid className="home-about-section" id="about">
+    <Container fluid className="home-buy-section" id="about">
       <Container style= {{ paddingTop: "5%" }}>
         <Row>
           <Col md={4} style={{ paddingTop: 50 }}>
@@ -37,6 +37,9 @@ function Home2() {
           <Col>
           </Col>
         </Row>
+        <br></br>
+        <br></br>
+        <br></br>
       </Container>
     </Container>
   );

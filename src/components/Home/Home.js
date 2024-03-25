@@ -89,10 +89,12 @@ function Home() {
               />
             </Col>
           </Row>
+          <br></br>
         </Container>
       </Container>
-      <Row>
-      <Col class="transition1">
+
+      {/* <Row>
+      <Col class="transition1"> */}
 {/* 
               <img
                 src={transition}
@@ -101,8 +103,8 @@ function Home() {
                 background-repeat: "repeat"
                 style={{ maxHeight: "450px" }}
               /> */}
-            </Col>
-            </Row>
+            {/* </Col>
+            </Row> */}
       <Home2 />
       <Home3 />
       <Home4 />

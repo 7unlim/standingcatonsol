@@ -69,21 +69,21 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
-            <Nav.Item>
+            {/* <Nav.Item>
               <Nav.Link
-                as={Link}
+                // as={Link}
                 to="/Home2"
                 onClick={() => updateExpanded(false)}
               >
                 <IoGameControllerOutline style={{ marginBottom: "2px" }} /> Funny Cat
               </Nav.Link>
-            </Nav.Item>
+            </Nav.Item> */}
 
 
             <Nav.Item>
               <Nav.Link
-                as={Link}
-                to="/Home3"
+                // as={Link}
+                to="/Home2"
                 onClick={() => updateExpanded(false)}
               >
                 <IoInformationCircleOutline style={{ marginBottom: "2px" }} /> About
@@ -105,8 +105,8 @@ function NavBar() {
 
             <Nav.Item>
               <Nav.Link
-                as={Link}
-                to="/resume"
+                // as={Link}
+                to="/Home3"
                 onClick={() => updateExpanded(false)}
               >
                 <CgFileDocument style={{ marginBottom: "2px" }} /> How to Buy
@@ -115,7 +115,8 @@ function NavBar() {
 
             <Nav.Item>
               <Nav.Link
-                href="https://soumyajitblogs.vercel.app/"
+                // href="https://soumyajitblogs.vercel.app/"
+                to="/Home4"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -125,7 +126,8 @@ function NavBar() {
 
             <Nav.Item>
               <Nav.Link
-                href="https://soumyajitblogs.vercel.app/"
+                // href="https://soumyajitblogs.vercel.app/"
+                to="/Home5"
                 target="_blank"
                 rel="noreferrer"
               >
