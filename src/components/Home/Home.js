@@ -79,7 +79,7 @@ function Home() {
               </ul>
             </Col>
               
-            <Col md={5} style={{ paddingLeft: 200, paddingTop: 50, paddingBottom: 5 }}>
+            <Col md={5} style={{ paddingLeft: 100, paddingTop: 50, paddingBottom: 5 }}>
               <img
                 // src={homeLogo}
                 src={nobgcat}
