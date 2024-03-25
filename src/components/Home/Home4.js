@@ -19,20 +19,13 @@ function Home4() {
             <Row>
             <Col md={12} className="tokens"> 
             <h1 className="token-heading tokens">
-            <strong className="main-name"> Token</strong>
+            <strong className="main-name tokens"> Token</strong>
                 omics
-                {/* <strong className="main-name"> *STD*</strong> */}
               </h1>
           </Col>
             </Row>
           <Row>
             <Col md={7} className="home-header">
-              {/* <h1 style={{ paddingBottom: 15 }} className="heading">
-                Hi There!{" "}
-                <span className="wave" role="img" aria-labelledby="wave">
-                  👋🏻
-                </span>
-              </h1> */}
 
               <h1 className="heading" style ={{ paddingTop: 50 }}>
                 <strong>Token Supply</strong>

@@ -229,36 +229,36 @@ button:focus {
 }
 
 .btn-outline-black {
-  font-size: 2.8rem;
-  white-space: nowrap;
-  padding-top: 5%
+  font-size: 2.8rem !important;
+  white-space: nowrap !important;
+  padding-top: 5% !important
 }
 @media (max-width: 1284px) { /* Adjust the max-width as needed */
   .btn-outline-black {
-    font-size: 2.2rem; /* Smaller font size for mobile */
-    margin-left: 1%; /* Adjust the margin as needed */
-    word-wrap: break-word; /* Ensure long words don't cause overflow */
+    font-size: 2.2rem !important; /* Smaller font size for mobile */
+    margin-left: 1% !important; /* Adjust the margin as needed */
+    word-wrap: break-word !important; /* Ensure long words don't cause overflow */
   }
 }
 
 .tokens {
-  font-size: 2.2rem
+  font-size: 2.2rem !important
 }
 
 @media (max-width: 1284px) {
   .tokens {
-    font-size: 14px; /* Example of a scaled-down size for mobile */
+    font-size: 14px !important; /* Example of a scaled-down size for mobile */
   }
 }
 
 .questions {
-  font-size: 2.75rem;
-  margin-bottom: '-150px'
+  font-size: 2.75rem !important;
+  margin-bottom: -150px !important
 }
 
 @media (max-width: 1284px) { /* Adjust the max-width as needed */
   .questions {
-    font-size: 1.8rem; /* Smaller font size for mobile */
+    font-size: 1.8rem !important; /* Smaller font size for mobile */
     /* margin-left: 1%; Adjust the margin as needed */
     /* word-wrap: break-word; Ensure long words don't cause overflow */
   }
@@ -266,20 +266,20 @@ button:focus {
 
 .emails {
   color: #F5DEB3;
-  font-size: 2.4rem;
-  margin-bottom: '-75px'
+  font-size: 2.4rem !important;
+  margin-bottom: -75px !important
   /* fontSize: '2.4rem', marginBottom: '-75px' */
 }
 
 @media (max-width: 1284px) {
   .emails {
-    font-size: 1.4rem; /* Example of a scaled-down size for mobile */
+    font-size: 1.4rem !important; /* Example of a scaled-down size for mobile */
   }
 }
 
 @media (max-width: 1284px) {
   .numberlol {
-    padding-bottom: 10%; /* Example of a scaled-down size for mobile */
+    padding-bottom: 10% !important; /* Example of a scaled-down size for mobile */
   }
 }
 
@@ -346,7 +346,7 @@ button:focus {
 }
 
 .token-heading {
-  font-size: '2.5em';
+  font-size: '2.5rem';
   color: black;
   /* padding-top: -55px !important; */
 }
