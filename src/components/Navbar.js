@@ -21,6 +21,7 @@ import { FaCircleInfo } from "react-icons/fa6";
 // import { TiInfoLargeOutline } from "react-icons/ti";
 import { IoInformationCircleOutline } from "react-icons/io5";
 import { IoGameControllerOutline } from "react-icons/io5";
+// import { Link } from 'react-router-dom';
 
 
 
@@ -28,6 +29,14 @@ import { IoGameControllerOutline } from "react-icons/io5";
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
   const [navColour, updateNavbar] = useState(false);
+
+  const scrollToSection = (sectionId) => {
+    const section = document.getElementById(sectionId);
+    if (section) {
+      section.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+  };
+  
 
   function scrollHandler() {
     if (window.scrollY >= 20) {
@@ -63,11 +72,24 @@ function NavBar() {
         </Navbar.Toggle>
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto" defaultActiveKey="#home">
+
             <Nav.Item>
-              <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}>
+              <Nav.Link
+                href="#home"
+                onClick={(e) => {
+                  e.preventDefault(); // Prevent default anchor link behavior
+                  scrollToSection('home'); // Scroll to the Home2 section
+                }}
+              >
                 <AiOutlineHome style={{ marginBottom: "2px" }} /> Home
               </Nav.Link>
             </Nav.Item>
+
+            {/* <Nav.Item>
+              <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}>
+                <AiOutlineHome style={{ marginBottom: "2px" }} /> Home
+              </Nav.Link>
+            </Nav.Item> */}
 
             {/* <Nav.Item>
               <Nav.Link
@@ -80,7 +102,7 @@ function NavBar() {
             </Nav.Item> */}
 
 
-            <Nav.Item>
+            {/* <Nav.Item>
               <Nav.Link
                 // as={Link}
                 to="/Home2"
@@ -88,7 +110,31 @@ function NavBar() {
               >
                 <IoInformationCircleOutline style={{ marginBottom: "2px" }} /> About
               </Nav.Link>
+            </Nav.Item> */}
+
+            <Nav.Item>
+              <Nav.Link
+                href="#home2"
+                onClick={(e) => {
+                  e.preventDefault(); // Prevent default anchor link behavior
+                  scrollToSection('home2'); // Scroll to the Home2 section
+                }}
+              >
+                <IoInformationCircleOutline style={{ marginBottom: "2px" }} /> About
+              </Nav.Link>
             </Nav.Item>
+
+            {/* <Nav.Item>
+              <Link
+                to="/"
+                onClick={(e) => {
+                  e.preventDefault(); // Prevent default anchor link behavior
+                  scrollToSection('home2'); // Scroll to the Home2 section
+                }}
+              >
+                <GiBrain style={{ marginBottom: "2px" }} /> Tokenomics
+              </Link>
+            </Nav.Item> */}
 
             {/* <Nav.Item>
               <Nav.Link
@@ -103,7 +149,7 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item> */}
 
-            <Nav.Item>
+            {/* <Nav.Item>
               <Nav.Link
                 // as={Link}
                 to="/Home3"
@@ -111,9 +157,21 @@ function NavBar() {
               >
                 <CgFileDocument style={{ marginBottom: "2px" }} /> How to Buy
               </Nav.Link>
-            </Nav.Item>
+            </Nav.Item> */}
 
             <Nav.Item>
+              <Nav.Link
+                href="#home3"
+                onClick={(e) => {
+                  e.preventDefault(); // Prevent default anchor link behavior
+                  scrollToSection('home3'); // Scroll to the Home2 section
+                }}
+              >
+                <CgFileDocument style={{ marginBottom: "2px" }} /> How to Buy
+              </Nav.Link>
+            </Nav.Item>
+
+            {/* <Nav.Item>
               <Nav.Link
                 // href="https://soumyajitblogs.vercel.app/"
                 to="/Home4"
@@ -122,14 +180,38 @@ function NavBar() {
               >
                 <GiBrain style={{ marginBottom: "2px" }} /> Tokenomics
               </Nav.Link>
-            </Nav.Item>
+            </Nav.Item> */}
 
             <Nav.Item>
+              <Nav.Link
+                href="#home4"
+                onClick={(e) => {
+                  e.preventDefault(); // Prevent default anchor link behavior
+                  scrollToSection('home4'); // Scroll to the Home2 section
+                }}
+              >
+                <GiBrain style={{ marginBottom: "2px" }} /> Tokenomics
+              </Nav.Link>
+            </Nav.Item>
+
+            {/* <Nav.Item>
               <Nav.Link
                 // href="https://soumyajitblogs.vercel.app/"
                 to="/Home5"
                 target="_blank"
                 rel="noreferrer"
+              >
+                <GrPlan style={{ marginBottom: "2px" }} /> Catmap
+              </Nav.Link>
+            </Nav.Item> */}
+
+            <Nav.Item>
+              <Nav.Link
+                href="#home5"
+                onClick={(e) => {
+                  e.preventDefault(); // Prevent default anchor link behavior
+                  scrollToSection('home5'); // Scroll to the Home2 section
+                }}
               >
                 <GrPlan style={{ marginBottom: "2px" }} /> Catmap
               </Nav.Link>

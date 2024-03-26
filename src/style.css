@@ -193,6 +193,22 @@ button:focus {
   }
 }
 
+.navbar-nav .navbar-link {
+  color: black !important;
+  padding-right: 1rem !important;
+  padding-left: 1rem !important;
+}
+
+.navbar-link {
+  padding: 0.8rem 1rem !important;
+}
+
+@media (max-width: 767px) {
+  .navbar-link {
+    padding: 0.7rem 1rem !important;
+  }
+}
+
 .navbar-nav .nav-item {
   position: relative;
   margin-left: 20px;
