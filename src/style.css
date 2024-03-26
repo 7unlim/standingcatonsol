@@ -259,10 +259,30 @@ button:focus {
 
 @media (max-width: 767px) { /* Adjust the max-width as needed */
   .btn-outline-black {
-    font-size: 2.2rem !important; /* Smaller font size for mobile */
-    white-space: normal !important;
-    margin-left: 1% !important; /* Adjust the margin as needed */
-    word-wrap: break-word !important; /* Ensure long words don't cause overflow */
+    font-size: 2.6rem !important; /* Smaller font size for mobile */
+    /* white-space: nowrap !important; */
+    /* overflow: hidden !important;
+    text-overflow: ellipsis !important;  */
+    white-space: wrap;
+    margin-left: 9% !important; /* Adjust the margin as needed */
+    padding-left: -1% !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    word-wrap: break-word !important;
+  }
+}
+
+@media (max-width: 767px) { /* Adjust the max-width as needed */
+  .the-cats {
+    /* font-size: 2.2rem !important; Smaller font size for mobile */
+    /* white-space: normal !important; */
+    margin-left: 35% !important; /* Adjust the margin as needed */
+    /* padding-left: 2% !important; */
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    /* word-wrap: break-word !important; Ensure long words don't cause overflow */
   }
 }
 
@@ -270,6 +290,57 @@ button:focus {
   font-size: 2.2rem !important;
   white-space: nowrap;
 } */
+
+.drop-down-item1 {
+  font-size: 25px !important;
+  display: flex !important;
+  justify-content: flex-start !important;
+  align-items: center !important;
+  margin-left: 2% !important
+}
+
+.drop-down-item2 {
+  font-size: 25px !important;
+  display: flex !important;
+  justify-content: flex-start !important;
+  align-items: center !important;
+  margin-left: 1.5% !important
+}
+
+@media (max-width: 767px) {
+  .drop-down-item1 {
+    font-size: 25px !important;
+    margin-left: 14% !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+  .drop-down-item2 {
+    font-size: 25px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    margin-left: 14% !important;
+  }
+}
+
+.main-page-cat {
+  padding-top: 100;
+  padding-top: 50;
+  padding-bottom: 5;
+}
+/* style={{ paddingLeft: 100, paddingTop: 50, paddingBottom: 5 }} */
+
+@media (max-width: 767px) {
+  .main-page-cat {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    padding-top: 20% !important;
+    margin-right: 150px !important;
+    padding-right: 150px !important;
+  }
+}
 
 .tokens {
   font-size: 70px;

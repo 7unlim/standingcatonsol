@@ -60,7 +60,7 @@ function App() {
             <Row noGutters>
             <Col md={4} style={{ paddingTop: 50, paddingRight: 0 }}>
             <img
-            //   className="hate"
+              className="the-cats"
               src={cat1}
               alt="home pic"
             //   className="img-fluid"
@@ -69,7 +69,7 @@ function App() {
           </Col>
           <Col md={4} style={{ display: 'flex', justifyContent: 'flex-start', marginLeft: '-7%', alignItems: 'center', paddingTop: 50 }}>
           <CollapsiblePanel title={<span><strong className="main-name">Create</strong> a Wallet</span>} collapse={collapse}>
-                <span style={{ fontSize: 25, display: 'flex', justifyContent: 'flex-start', alignItems: 'center', marginLeft: '2%' }}>{text1}</span>
+                <span className="drop-down-item1">{text1}</span>
             </CollapsiblePanel>
           </Col>
           </Row>
@@ -79,7 +79,7 @@ function App() {
           <Row noGutters>
             <Col md={4} style={{ paddingTop: 50, paddingRight: 0 }}>
             <img
-            //   className="hate"
+              className="the-cats"
               src={cat2}
               alt="home pic"
             //   className="img-fluid"
@@ -88,7 +88,7 @@ function App() {
           </Col>
           <Col md={4} style={{ display: 'flex', justifyContent: 'flex-start', marginLeft: '-7%', alignItems: 'center', paddingTop: 50 }}>
           <CollapsiblePanel title={<span><strong className="main-name">Get</strong> some Sol</span>} collapse={collapse}>
-                <span style={{ fontSize: 25, display: 'flex', justifyContent: 'flex-start', alignItems: 'center', marginLeft: '2%' }}>{text2}</span>
+                <span className="drop-down-item1">{text2}</span>
             </CollapsiblePanel>
           </Col>
           </Row>
@@ -98,7 +98,7 @@ function App() {
           <Row noGutters>
             <Col md={4} style={{ paddingTop: 50, paddingRight: 0 }}>
             <img
-            //   className="hate"
+              className="the-cats"
               src={cat3}
               alt="home pic"
             //   className="img-fluid"
@@ -107,7 +107,7 @@ function App() {
           </Col>
           <Col md={4} style={{ display: 'flex', justifyContent: 'flex-start', marginLeft: '-7%', alignItems: 'center', paddingTop: 50 }}>
           <CollapsiblePanel title={<span><strong className="main-name">Connect</strong> to DEXscreener/Jupiter</span>} collapse={collapse}>
-                <span style={{ fontSize: 25, display: 'flex', justifyContent: 'flex-start', alignItems: 'center', marginLeft: '1.5%' }}>{text3}</span>
+                <span className="drop-down-item2">{text3}</span>
             </CollapsiblePanel>
           </Col>
           </Row>
@@ -117,7 +117,7 @@ function App() {
           <Row noGutters>
             <Col md={4} style={{ paddingTop: 50, paddingRight: 0 }}>
             <img
-            //   className="hate"
+              className="the-cats"
               src={cat4}
               alt="home pic"
             //   className="img-fluid"
@@ -126,7 +126,7 @@ function App() {
           </Col>
           <Col md={4} style={{ display: 'flex', justifyContent: 'flex-start', marginLeft: '-7%', alignItems: 'center', paddingTop: 50 }}>
           <CollapsiblePanel title={<span><strong className="main-name">Trade</strong> for <span><strong className="numberlol">Standing Cat</strong> and hold!</span></span>} collapse={collapse}>
-                <span style={{ fontSize: 25, display: 'flex', justifyContent: 'flex-start', alignItems: 'center', marginLeft: '1.5%' }}>{text4}</span>
+                <span className="drop-down-item2">{text4}</span>
             </CollapsiblePanel>
           </Col>
           </Row>

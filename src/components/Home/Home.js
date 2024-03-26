@@ -79,12 +79,12 @@ function Home() {
               </ul>
             </Col>
               
-            <Col md={5} style={{ paddingLeft: 100, paddingTop: 50, paddingBottom: 5 }}>
+            <Col md={5} className="main-page-cat">
               <img
                 // src={homeLogo}
                 src={nobgcat}
                 alt="home pic"
-                className="img-fluid"
+                // className="main-page-cat"
                 // style={{ maxHeight: "450px" }}
               />
             </Col>
