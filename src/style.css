@@ -701,9 +701,19 @@ button:focus {
   text-align: center !important;
   font-size: 1.75em !important;
   line-height: 2em !important;
-  background: rgba(255, 255, 255, 0.972) !important;
+  /* background: rgba(255, 255, 255, 0.972) !important; */
+  background: transparent !important;
   border-radius: 50% !important;
   transition: 0.5s !important;
+  border: 0.25px solid #E5AA70;
+  overflow: hidden; /* This will hide the parts of the image that overflow the container */
+}
+
+.home-social-icons img {
+  width: 50%; /* This will cover the width of the container */
+  height: auto; /* Maintain the aspect ratio */
+  min-height: 50%; /* Ensure the image covers the height */
+  object-fit: cover; /* Cover the container, some parts of the image may be cropped */
 }
 
 .home-social-icons::before {
@@ -735,6 +745,7 @@ button:focus {
   display: inline-block !important;
   padding-right: 15px;
   padding-left: 15px;
+  border-color: black;
 }
 
 .icon-color {
@@ -752,6 +763,7 @@ button:focus {
 }
 .footer-copywright {
   text-align: center !important;
+  font-size: 24px;
 }
 
 .footer-body {

@@ -13,14 +13,14 @@ function Footer() {
   return (
     <Container fluid className="footer">
       <Row>
-        <Col md="4" className="footer-copywright">
-          <h3>Hi My name is Jun I made this website</h3>
+        <Col md="3" className="footer-copywright">
+          <h3></h3>
         </Col>
-        <Col md="4" className="footer-copywright">
-          <h3>These spaces need to be filled on final iteration probably</h3>
+        <Col md="6" className="footer-copywright">
+          <h3>DISCLAIMER: Standing Cat meme coin is simply for entertainment purposes only. Standing Cat holds no intrinsic value or expectation of financial return. When buying $STD Cat, you are acknowledging that you have read this disclaimer </h3>
         </Col>
-        <Col md="4" className="footer-body">
-          <h3>I hope you liked this</h3>
+        <Col md="3" className="footer-body">
+          <h3></h3>
           {/* <ul className="footer-icons">
             <li className="social-icons">
               <a

@@ -13,6 +13,7 @@ import transition from "../../Assets/transitionreal.png"
 import nobgcat from "../../Assets/catnobg.png"
 import CopyButton from "./CopyButton.js"
 import ImageFade from "./ImageFade.js"
+import dexLogo from "../../Assets/dexscreener.png"
 
 // import {
 //   // AiFillGithub,
@@ -75,7 +76,8 @@ function Home() {
                     rel="noreferrer"
                     className="icon-color  home-social-icons"
                   >
-                    <GiEagleHead />
+                    <img src= {dexLogo} />
+                    {/* <GiEagleHead /> */}
                   </a>
                 </li>
               </ul>
