@@ -10,16 +10,19 @@ import {
 import { FaLinkedinIn } from "react-icons/fa";
 import catBull from "../../Assets/realcatbull.png";
 import piechart from "../../Assets/piechart.png"
+// import useFadeInOnScroll from "./UseFadeInOnScroll.js"
 
 
 function Home4() {
+  // const [imgVisible, imgRef] = useFadeInOnScroll();
+  // const [textVisible, textRef] = useFadeInOnScroll();
   return (
     <Container fluid className="home-questions-section" id="home">
         <Container className="home-content">
           <Row>
-            <Col md={7} className="home-header">
+            <Col md={7}>
 
-              <h1 className="tokens">
+              <h1 className='tokens'>
                 <strong className="main-name">Token</strong>omics
               </h1>
               <br></br>

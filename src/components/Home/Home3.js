@@ -16,6 +16,8 @@ import nobgcat from "../../Assets/catnobg.png"
 import { useState } from "react";
 import ReactDOM from "react-dom";
 import CollapsiblePanel from "./CollapsiblePanel";
+import useFadeInOnScroll from "./UseFadeInOnScroll.js"
+
 
 function App() {
     const text1 =
@@ -47,6 +49,9 @@ function App() {
       border: 'none'
     };
 
+    const [imgVisible, imgRef] = useFadeInOnScroll();
+    const [textVisible, textRef] = useFadeInOnScroll();
+
     return (
         <div>
             {/* Expand/Collapse All */}
@@ -58,7 +63,7 @@ function App() {
                 <i className={icon} /> {title}
             </button> */}
             <Row noGutters>
-            <Col md={4} style={{ paddingTop: 50, paddingRight: 0 }}>
+            <Col md={4} style={{ paddingTop: 50, paddingRight: 0 }} ref={imgRef} className={`fade-in-num1 ${imgVisible ? 'fade-in-visible' : ''}`}>
             <img
               className="the-cats"
               src={cat1}
@@ -67,7 +72,7 @@ function App() {
               style={{ maxHeight: "150px" }}
             />
           </Col>
-          <Col md={4} style={{ display: 'flex', justifyContent: 'flex-start', marginLeft: '-7%', alignItems: 'center', paddingTop: 50 }}>
+          <Col md={4} style={{ display: 'flex', justifyContent: 'flex-start', marginLeft: '-7%', alignItems: 'center', paddingTop: 50 }} className={`fade-in-num11 ${textVisible ? 'fade-in-visible' : ''}`} ref={textRef}>
           <CollapsiblePanel title={<span><strong className="main-name">Create</strong> a Wallet</span>} collapse={collapse}>
                 <span className="drop-down-item1">{text1}</span>
             </CollapsiblePanel>
@@ -77,7 +82,7 @@ function App() {
           <hr style={line}></hr>
 
           <Row noGutters>
-            <Col md={4} style={{ paddingTop: 50, paddingRight: 0 }}>
+            <Col md={4} style={{ paddingTop: 50, paddingRight: 0 }} className={`fade-in-num2 ${imgVisible ? 'fade-in-visible' : ''}`}>
             <img
               className="the-cats"
               src={cat2}
@@ -86,7 +91,7 @@ function App() {
               style={{ maxHeight: "150px" }}
             />
           </Col>
-          <Col md={4} style={{ display: 'flex', justifyContent: 'flex-start', marginLeft: '-7%', alignItems: 'center', paddingTop: 50 }}>
+          <Col md={4} style={{ display: 'flex', justifyContent: 'flex-start', marginLeft: '-7%', alignItems: 'center', paddingTop: 50 }} className={`fade-in-num22 ${textVisible ? 'fade-in-visible' : ''}`} ref={textRef}>
           <CollapsiblePanel title={<span><strong className="main-name">Get</strong> some Sol</span>} collapse={collapse}>
                 <span className="drop-down-item1">{text2}</span>
             </CollapsiblePanel>
@@ -96,7 +101,7 @@ function App() {
           <hr class="line"></hr>
 
           <Row noGutters>
-            <Col md={4} style={{ paddingTop: 50, paddingRight: 0 }}>
+            <Col md={4} style={{ paddingTop: 50, paddingRight: 0 }} className={`fade-in-num3 ${imgVisible ? 'fade-in-visible' : ''}`}>
             <img
               className="the-cats"
               src={cat3}
@@ -105,7 +110,7 @@ function App() {
               style={{ maxHeight: "150px" }}
             />
           </Col>
-          <Col md={4} style={{ display: 'flex', justifyContent: 'flex-start', marginLeft: '-7%', alignItems: 'center', paddingTop: 50 }}>
+          <Col md={4} style={{ display: 'flex', justifyContent: 'flex-start', marginLeft: '-7%', alignItems: 'center', paddingTop: 50 }} className={`fade-in-num33 ${textVisible ? 'fade-in-visible' : ''}`} ref={textRef}>
           <CollapsiblePanel title={<span><strong className="main-name">Connect</strong> to DEXscreener/Jupiter</span>} collapse={collapse}>
                 <span className="drop-down-item2">{text3}</span>
             </CollapsiblePanel>
@@ -115,7 +120,7 @@ function App() {
           <hr></hr>
 
           <Row noGutters>
-            <Col md={4} style={{ paddingTop: 50, paddingRight: 0 }}>
+            <Col md={4} style={{ paddingTop: 50, paddingRight: 0 }} className={`fade-in-num4 ${imgVisible ? 'fade-in-visible' : ''}`}>
             <img
               className="the-cats"
               src={cat4}
@@ -124,7 +129,7 @@ function App() {
               style={{ maxHeight: "150px" }}
             />
           </Col>
-          <Col md={4} style={{ display: 'flex', justifyContent: 'flex-start', marginLeft: '-7%', alignItems: 'center', paddingTop: 50 }}>
+          <Col md={4} style={{ display: 'flex', justifyContent: 'flex-start', marginLeft: '-7%', alignItems: 'center', paddingTop: 50 }} className={`fade-in-num44 ${textVisible ? 'fade-in-visible' : ''}`} ref={textRef}>
           <CollapsiblePanel title={<span><strong className="main-name">Trade</strong> for <span><strong className="numberlol">Standing Cat</strong> and hold!</span></span>} collapse={collapse}>
                 <span className="drop-down-item2">{text4}</span>
             </CollapsiblePanel>
@@ -138,7 +143,8 @@ function App() {
 }
 
 function Home3() {
-
+const [imgVisible, imgRef] = useFadeInOnScroll();
+const [textVisible, textRef] = useFadeInOnScroll();
   return (
     <Container fluid className="home-about-section" id="about">
       <Container>
@@ -153,7 +159,7 @@ function Home3() {
           </Col> */}
           <center>
           <Col md={12} style = {{ marginTop: '10%' }}> 
-            <h1 className="main-name" style ={{ paddingTop: 25, fontSize: 65, color: '#000000' }}>
+            <h1 ref={textRef} className={`main-name fade-in-top ${imgVisible ? 'fade-in-visible' : ''}`} style ={{ paddingTop: 25, fontSize: 65, color: '#000000' }}>
                 How to Buy
             </h1>
           </Col>
@@ -166,7 +172,7 @@ function Home3() {
               style={{ maxHeight: "85px" }}
             /> */}
           {/* </Col> */}
-          <h1 style ={{ paddingTop: 50, fontSize: 10 }}>
+          <h1 ref={textRef} className={`fade-in ${imgVisible ? 'fade-in-visible' : ''}`} style ={{ paddingTop: 50, fontSize: 10 }}>
                 ples buy :(
               </h1>
               <center>
@@ -175,6 +181,7 @@ function Home3() {
               src={nobgcat}
               alt="home pic"
               style= {{ height: 50, width: 75 }}
+              ref={imgRef} className={`fade-in ${imgVisible ? 'fade-in-visible' : ''}`}
             //   className="img-fluid"
               // style={{ maxHeight: "25px" }}
             />

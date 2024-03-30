@@ -1,4 +1,4 @@
-import React from "react";
+import { React } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import homeLogo from "../../Assets/standingcat.jpeg";
 import Particle from "../Particle";
@@ -11,6 +11,9 @@ import Home7 from "./Home7";
 import Type from "./Type";
 import transition from "../../Assets/transitionreal.png"
 import nobgcat from "../../Assets/catnobg.png"
+import CopyButton from "./CopyButton.js"
+import ImageFade from "./ImageFade.js"
+
 // import {
 //   // AiFillGithub,
 //   AiOutlineTwitter,
@@ -31,7 +34,6 @@ function Home() {
         <Container className="home-content">
           <Row>
             <Col md={7} className="home-header">
-
               <h1 className="heading" style ={{ paddingTop: 50 }}>
                 Standing Cat
                 <strong className="main-name"> ($STD CAT)</strong>
@@ -80,16 +82,20 @@ function Home() {
             </Col>
               
             <Col md={5} className="main-page-cat">
-              <img
+              {/* <img
                 // src={homeLogo}
                 src={nobgcat}
                 alt="home pic"
                 // className="main-page-cat"
                 // style={{ maxHeight: "450px" }}
-              />
+              /> */}
+              <ImageFade />
             </Col>
           </Row>
           <br></br>
+          <div style={{ paddingLeft: '3%', paddingTop: '2%' }}>
+            <CopyButton />
+          </div>
         </Container>
       </Container>
 

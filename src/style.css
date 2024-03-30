@@ -257,6 +257,122 @@ button:focus {
   word-wrap: break-word;
 }
 
+.image-container {
+  position: relative;
+  /* width: width of your images;
+  height: /* height of your images */
+}
+
+.image, .overlay-text {
+  position: absolute;
+  top: 0;
+  left: 1;
+}
+
+.fade-in {
+  opacity: 0;
+  transform: translateX(-50px); /* Adjust the value to control how far it comes in from the side */
+  visibility: hidden;
+  transition: opacity 0.8s ease-out, transform 0.8s ease-out, visibility 0.8s; /* Increased duration for a slower transition */
+}
+
+.fade-in-top {
+  opacity: 0;
+  transform: translateX(-30px); /* Adjust the value to control how far it comes in from the side */
+  visibility: hidden;
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out, visibility 0.6s; /* Increased duration for a slower transition */
+}
+
+.fade-in-num11 {
+  opacity: 0;
+  transform: translateX(-50px); /* Adjust the value to control how far it comes in from the side */
+  visibility: hidden;
+  transition: opacity .8s ease-out, transform .8s ease-out, visibility .8s; /* Increased duration for a slower transition */
+}
+
+.fade-in-num22 {
+  opacity: 0;
+  transform: translateX(-80px); /* Adjust the value to control how far it comes in from the side */
+  visibility: hidden;
+  transition: opacity .8s ease-out, transform .8s ease-out, visibility .8s; /* Increased duration for a slower transition */
+}
+
+.fade-in-num33 {
+  opacity: 0;
+  transform: translateX(-110px); /* Adjust the value to control how far it comes in from the side */
+  visibility: hidden;
+  transition: opacity .8s ease-out, transform .8s ease-out, visibility .8s; /* Increased duration for a slower transition */
+}
+
+.fade-in-num44 {
+  opacity: 0;
+  transform: translateX(-140px); /* Adjust the value to control how far it comes in from the side */
+  visibility: hidden;
+  transition: opacity .8s ease-out, transform .8s ease-out, visibility .8s; /* Increased duration for a slower transition */
+}
+
+.fade-in-num1 {
+  opacity: 0;
+  transform: translateX(-70px); /* Adjust the value to control how far it comes in from the side */
+  visibility: hidden;
+  transition: opacity 0.8s ease-out, transform 0.8s ease-out, visibility 0.8s; /* Increased duration for a slower transition */
+}
+
+.fade-in-num2 {
+  opacity: 0;
+  transform: translateX(-110px); /* Adjust the value to control how far it comes in from the side */
+  visibility: hidden;
+  transition: opacity 1s ease-out, transform 1s ease-out, visibility 1s; /* Increased duration for a slower transition */
+}
+
+.fade-in-num3 {
+  opacity: 0;
+  transform: translateX(-150px); /* Adjust the value to control how far it comes in from the side */
+  visibility: hidden;
+  transition: opacity 1.2s ease-out, transform 1.2s ease-out, visibility 1.2s; /* Increased duration for a slower transition */
+}
+
+.fade-in-num4 {
+  opacity: 0;
+  transform: translateX(-190px); /* Adjust the value to control how far it comes in from the side */
+  visibility: hidden;
+  transition: opacity 1.4s ease-out, transform 1.4s ease-out, visibility 1.4s; /* Increased duration for a slower transition */
+}
+
+.fade-in-visible {
+  opacity: 1;
+  transform: translateX(0);
+  visibility: visible;
+}
+
+
+.copy-text-button {
+  position: relative !important; 
+  z-index: 999 !important;
+  display: inline-flex;
+  align-items: center;
+  /* padding-right: 10px; */
+  background-color: transparent; /* Initial transparent background */
+  color: black; /* Text color, assuming you want it to be white */
+  border: 2px solid black; /* White border; adjust as needed */
+  padding: 10px 20px; /* Adjust padding as needed */
+  font-size: 16px; /* Adjust font size as needed */
+  cursor: pointer; /* Changes the cursor to indicate it's clickable */
+  border-radius: 10px; /* Rounded corners; adjust the value as needed */
+  transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for background, transform, and box-shadow */
+}
+
+.copy-text-button:hover {
+  background-color: #000000; /* Background becomes black on hover */
+  color: #F5DEB3;
+  transform: translateY(-2px); /* Button moves up slightly */
+  box-shadow: 0 4px 6px rgba(0,0,0,0.2); /* Adds shadow to create a lifting effect */
+}
+
+/* .icon-padding {
+  padding-left: 1%
+} */
+
 @media (max-width: 767px) { /* Adjust the max-width as needed */
   .btn-outline-black {
     font-size: 2.6rem !important; /* Smaller font size for mobile */
