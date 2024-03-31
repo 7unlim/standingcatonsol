@@ -21,7 +21,6 @@ function Home4() {
         <Container className="home-content">
           <Row>
             <Col md={7}>
-
               <h1 className='tokens'>
                 <strong className="main-name">Token</strong>omics
               </h1>

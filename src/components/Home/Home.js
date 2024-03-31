@@ -95,7 +95,7 @@ function Home() {
             </Col>
           </Row>
           <br></br>
-          <div style={{ paddingLeft: '3%', paddingTop: '2%' }}>
+          <div style={{ paddingLeft: '3%', paddingTop: '-15%' }}>
             <CopyButton />
           </div>
         </Container>

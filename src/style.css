@@ -259,14 +259,21 @@ button:focus {
 
 .image-container {
   position: relative;
+  width: 100%; /* Set to the desired width */
+  height: 100%; /* Set to the desired height or adjust as necessary */
   /* width: width of your images;
   height: /* height of your images */
 }
 
-.image, .overlay-text {
+.image-first, .image-second, .overlay-text {
   position: absolute;
   top: 0;
-  left: 1;
+  left: 3%;
+  /* object-fit: cover; */
+  width: 120%; /* Adjust width if necessary */
+  height: 120%;
+  object-fit: contain;
+  object-position: center center;
 }
 
 .fade-in {
@@ -441,10 +448,22 @@ button:focus {
 }
 
 .main-page-cat {
-  padding-top: 100;
-  padding-top: 50;
-  padding-bottom: 5;
+  /* padding-top: 250; */
+  padding-top: 5% !important;
+  /* margin-top: 3% !important; */
+  padding-left: 5% !important;
+  /* padding-bottom: 5; */
 }
+/* 
+.first-image {
+  position: relative !important;
+} */
+
+.second-image {
+  position: relative !important;
+  padding-right: 8% !important;
+}
+
 /* style={{ paddingLeft: 100, paddingTop: 50, paddingBottom: 5 }} */
 
 @media (max-width: 767px) {
@@ -705,14 +724,14 @@ button:focus {
   background: transparent !important;
   border-radius: 50% !important;
   transition: 0.5s !important;
-  border: 0.25px solid #E5AA70;
+  border: 0.25px solid lightgray;
   overflow: hidden; /* This will hide the parts of the image that overflow the container */
 }
 
 .home-social-icons img {
-  width: 50%; /* This will cover the width of the container */
+  width: 45%; /* This will cover the width of the container */
   height: auto; /* Maintain the aspect ratio */
-  min-height: 50%; /* Ensure the image covers the height */
+  min-height: 45%; /* Ensure the image covers the height */
   object-fit: cover; /* Cover the container, some parts of the image may be cropped */
 }
 
