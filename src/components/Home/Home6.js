@@ -27,7 +27,7 @@ function Home6() {
               <br></br>
               <br></br>
               <h1 className="emails">
-              Feel free to yell at alexison.pan@gmail.com
+              Direct to standingcatcoin@gmail.com!
               </h1>
           </Col>
             </Row>
