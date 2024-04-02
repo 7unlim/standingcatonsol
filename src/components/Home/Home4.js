@@ -13,6 +13,7 @@ import piechart from "../../Assets/piechart.png"
 import useFadeInOnScroll from "./UseFadeInOnScroll.js"
 import { useInView } from 'react-intersection-observer'; // Import the hook
 import CustomPieChart from "./PieChart.js"
+import thepie from "../../Assets/piechartmobile.png"
 // import { PieChart, pieArcLabelClasses } from '@mui/x-charts/PieChart';
 
 
@@ -45,6 +46,10 @@ function Home4() {
               
             <Col md={7} style={{ paddingRight: "10%", marginTop: "-5%", marginLeft: "-7%" }} ref={imgRef} className={`fade-in-num33 ${imgVisible ? 'fade-in-visible' : ''}`}>
               <CustomPieChart />
+              <img 
+              src={thepie}
+              className="ihatemobile"
+              />
             </Col>
           </Row>
           <br></br>

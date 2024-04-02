@@ -49,6 +49,21 @@ body {
   }
 }
 
+.ihatemobile {
+  display: none;
+}
+
+@media (max-width: 767px) {
+  .ihatemobile {
+    display: flex;
+    justify-content: center;
+    width: 75%;
+    height: 50%;
+    margin-top: 30%;
+    margin-left: 15%
+  }
+}
+
 .highcharts-custom {
   font-family: 'Chewy' !important;
   padding-left: "-15%" !important;
@@ -57,12 +72,13 @@ body {
 
 @media (max-width: 767px) {
   .highcharts-custom {
-    display: flex;
+    /* display: flex;
     justify-content: center;
     margin-left: -80%;
     width: 10%;
     height: 10%;
-    font-size: 5px !important;
+    font-size: 5px !important; */
+    display: none;
   }
 }
 
@@ -460,76 +476,13 @@ button:focus {
 }
 
 @media (max-width: 767px) {
-  .fade-in {
-    transform: translateX(-12.5px) !important; 
-    transition: opacity 0.5s ease-out, transform 0.5s ease-out, visibility 0.5s !important; 
-  }
-  
-  .fade-in-down {
-    transform: none !important;
-    opacity: 1 !important;
-    visibility: visible !important;
-    transition: none !important; 
-  }
-  
-  .fade-in-up {
-    transform: none !important;
-    opacity: 1 !important;
-    visibility: visible !important;
-    transition: none !important; 
-  }
-  
-  .fade-in-top {
-    transform: translateX(-7.5px) !important; 
-    transition: opacity 0.5s ease-out, transform 0.5s ease-out, visibility 0.5s !important; 
-  }
-  
-  .fade-in-num11 {
-    transform: translateX(8.75px) !important; 
-    transition: opacity 0.5s ease-out, transform 0.5s ease-out, visibility 0.5s !important; 
-  }
-  
-  .fade-in-num22 {
-    transform: translateX(11.25px) !important; 
-    transition: opacity 0.5s ease-out, transform 0.5s ease-out, visibility 0.5s !important; 
-  }
-  
-  .fade-in-num33 {
-    transform: translateX(13.75px) !important; 
-    transition: opacity 0.5s ease-out, transform 0.5s ease-out, visibility 0.5s !important; 
-  }
-  
-  .fade-in-num44 {
-    transform: translateX(15.75px) !important; 
-    transition: opacity 0.5s ease-out, transform 0.5s ease-out, visibility 0.5s !important; 
-  }
-  
-  .fade-in-num1 {
-    transform: none !important;
-    opacity: 1 !important;
-    visibility: visible !important;
-    transition: none !important; 
-  }
-  
-  .fade-in-num2 {
-    transform: none !important;
-    opacity: 1 !important;
-    visibility: visible !important;
-    transition: none !important; 
-  }
-  
-  .fade-in-num3 {
-    transform: none !important;
-    opacity: 1 !important;
-    visibility: visible !important;
-    transition: none !important;
-  }
-  
-  .fade-in-num4 {
-    transform: none !important;
-    opacity: 1 !important;
-    visibility: visible !important;
-    transition: none !important;
+  .fade-in, .fade-in-down, .fade-in-up, .fade-in-top,
+.fade-in-num11, .fade-in-num22, .fade-in-num33, .fade-in-num44,
+.fade-in-num1, .fade-in-num2, .fade-in-num3, .fade-in-num4 {
+  transform: none !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+  transition: none !important;
   }
 }
 
