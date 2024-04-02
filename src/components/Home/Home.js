@@ -70,7 +70,7 @@ function Home() {
                 </li>
                 <li className="social-icons">
                   <a
-                    href="https://twitter.com/Soumyajit4419"
+                    href="https://linktr.ee/standingcatcoin"
                     target="_blank"
                     rel="noreferrer"
                     className="icon-color  home-social-icons"
