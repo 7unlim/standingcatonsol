@@ -17,6 +17,7 @@ import { useState } from "react";
 import ReactDOM from "react-dom";
 import CollapsiblePanel from "./CollapsiblePanel";
 import useFadeInOnScroll from "./UseFadeInOnScroll.js"
+import { GoTriangleRight } from "react-icons/go";
 
 
 function App() {
@@ -112,7 +113,7 @@ function App() {
           </Col>
           <Col md={4} style={{ display: 'flex', justifyContent: 'flex-start', marginLeft: '-7%', alignItems: 'center', paddingTop: 50 }} className={`fade-in-num33 ${textVisible ? 'fade-in-visible' : ''}`} ref={textRef}>
           <CollapsiblePanel title={<span><strong className="main-name">Hop</strong> on Jupiter</span>} collapse={collapse}>
-                <span className="drop-down-item2">{text3}</span>
+                <span className="drop-down-item1">{text3}</span>
             </CollapsiblePanel>
           </Col>
           </Row>

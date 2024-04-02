@@ -268,7 +268,7 @@ button:focus {
 .image-first, .image-second, .overlay-text {
   position: absolute;
   top: 0;
-  left: 2%;
+  left: 4%;
   /* object-fit: cover; */
   width: 120%; /* Adjust width if necessary */
   height: 120%;
@@ -419,7 +419,7 @@ button:focus {
   display: flex !important;
   justify-content: flex-start !important;
   align-items: center !important;
-  margin-left: 2% !important
+  margin-left: 5% !important
 }
 
 .drop-down-item2 {
@@ -427,7 +427,7 @@ button:focus {
   display: flex !important;
   justify-content: flex-start !important;
   align-items: center !important;
-  margin-left: 1.5% !important
+  margin-left: 3% !important
 }
 
 @media (max-width: 767px) {
