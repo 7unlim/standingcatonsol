@@ -70,7 +70,7 @@ function Home2() {
             {/* </center> */}
           </Col>
           {/* </center> */}
-          <Col md={8}>
+          <Col md={8} className="catarmy">
             <center className={`fade-in-num33 ${textVisible ? 'fade-in-visible' : ''}`} ref={textRef}>
               <center>
           <p style= {{ paddingTop: "8%", fontSize: "36px", marginBottom: "10%" }}>

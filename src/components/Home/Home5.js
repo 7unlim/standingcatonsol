@@ -35,7 +35,7 @@ function Home5() {
           <br></br>
           <center>
           <Row>
-          <Col md={4} ref={imgRef} className={`fade-in ${imgVisible ? 'fade-in-visible' : ''}`}>
+          <Col md={4} ref={imgRef} className={`phases-container fade-in ${imgVisible ? 'fade-in-visible' : ''}`}>
           <img
                 // src={homeLogo}
                 src={phase1}
@@ -53,6 +53,9 @@ function Home5() {
                 style={{ height: '100%', width: '75%' }}
                 />
           </Col>
+          <br></br>
+          <br></br>
+          <br></br>
           <Col md={4} ref={imgRef} className={`fade-in-num33 ${imgVisible ? 'fade-in-visible' : ''}`}>
           <img
                 // src={homeLogo}
