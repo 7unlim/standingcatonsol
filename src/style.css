@@ -35,6 +35,16 @@ body {
   margin-left: "-15%" !important
 }
 
+@media (max-width: 767px) {
+  .highcharts-custom {
+    display: flex;
+    justify-content: center;
+    margin-left: -30%;
+    width: 25%;
+    height: 25%;
+  }
+}
+
 .purple {
   color: var(--imp-text-color) !important;
 }
@@ -271,6 +281,42 @@ button:focus {
   height: /* height of your images */
 }
 
+.image-container {
+  display: flex;
+  align-items: center; /* Align items vertically in the center */
+  justify-content: center; /* Center items horizontally */
+  flex-wrap: wrap; /* Allow items to wrap to the next line on small screens */
+}
+
+/* .image-container img {
+  width: 100%;
+  max-width: 500px;
+  transition: opacity 0.75s ease; 
+} */
+
+.image-container img {
+  max-width: 100%; /* Ensure images do not overflow their container */
+  height: auto; /* Maintain aspect ratio */
+  transition: opacity 0.75s ease; /* Smooth transition for the fade effect */
+}
+
+@media (max-width: 768px) { /* Adjust the breakpoint as needed */
+  .image-container {
+    flex-direction: column; /* Stack items vertically on small screens */
+    justify-content: center !important;
+    /* align-items: center; */
+    padding-top: 60%;
+    padding-bottom: -10%;
+  }
+  
+  .image-container img {
+    width: 80%; /* Increase size to make images more visible */
+    margin-bottom: 20px; /* Add space between stacked images */
+    align-items: center;
+    justify-content: center;
+  }
+}
+
 .image-first, .image-second, .overlay-text {
   position: absolute;
   top: 0;
@@ -289,88 +335,101 @@ button:focus {
   padding-left: -10px;
 }
 
+@media (max-width: 767px) {
+  .emphasis {
+    font-size: 46px;
+    white-space: normal !important;
+    padding-top: 70px;
+    padding-left: 17px;
+    /* width: 0; */
+    /* text-align: center; */
+    justify-content: center;
+  }
+}
+
+
 .fade-in {
   opacity: 0;
-  transform: translateX(-50px); /* Adjust the value to control how far it comes in from the side */
+  transform: translateX(-50px); 
   visibility: hidden;
-  transition: opacity 0.8s ease-out, transform 0.8s ease-out, visibility 0.8s; /* Increased duration for a slower transition */
+  transition: opacity 0.8s ease-out, transform 0.8s ease-out, visibility 0.8s; 
 }
 
 .fade-in-down {
   opacity: 0;
-  transform: translateY(-100px); /* Adjust the value to control how far it comes in from the side */
+  transform: translateY(-100px); 
   visibility: hidden;
-  transition: opacity 0.8s ease-out, transform 0.8s ease-out, visibility 0.8s; /* Increased duration for a slower transition */
+  transition: opacity 0.8s ease-out, transform 0.8s ease-out, visibility 0.8s; 
 }
 
 .fade-in-up {
   opacity: 0;
-  transform: translateY(50px); /* Adjust the value to control how far it comes in from the side */
+  transform: translateY(50px); 
   visibility: hidden;
-  transition: opacity 0.8s ease-out, transform 0.8s ease-out, visibility 0.8s; /* Increased duration for a slower transition */
+  transition: opacity 0.8s ease-out, transform 0.8s ease-out, visibility 0.8s; 
 }
 
 .fade-in-top {
   opacity: 0;
-  transform: translateX(-30px); /* Adjust the value to control how far it comes in from the side */
+  transform: translateX(-30px); 
   visibility: hidden;
-  transition: opacity 0.6s ease-out, transform 0.6s ease-out, visibility 0.6s; /* Increased duration for a slower transition */
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out, visibility 0.6s; 
 }
 
 .fade-in-num11 {
   opacity: 0;
-  transform: translateX(35px); /* Adjust the value to control how far it comes in from the side */
+  transform: translateX(35px); 
   visibility: hidden;
-  transition: opacity .8s ease-out, transform .8s ease-out, visibility .8s; /* Increased duration for a slower transition */
+  transition: opacity .8s ease-out, transform .8s ease-out, visibility .8s; 
 }
 
 .fade-in-num22 {
   opacity: 0;
-  transform: translateX(45px); /* Adjust the value to control how far it comes in from the side */
+  transform: translateX(45px); 
   visibility: hidden;
-  transition: opacity .8s ease-out, transform .8s ease-out, visibility .8s; /* Increased duration for a slower transition */
+  transition: opacity .8s ease-out, transform .8s ease-out, visibility .8s; 
 }
 
 .fade-in-num33 {
   opacity: 0;
-  transform: translateX(55px); /* Adjust the value to control how far it comes in from the side */
+  transform: translateX(55px); 
   visibility: hidden;
-  transition: opacity .8s ease-out, transform .8s ease-out, visibility .8s; /* Increased duration for a slower transition */
+  transition: opacity .8s ease-out, transform .8s ease-out, visibility .8s; 
 }
 
 .fade-in-num44 {
   opacity: 0;
-  transform: translateX(65px); /* Adjust the value to control how far it comes in from the side */
+  transform: translateX(65px); 
   visibility: hidden;
-  transition: opacity .8s ease-out, transform .8s ease-out, visibility .8s; /* Increased duration for a slower transition */
+  transition: opacity .8s ease-out, transform .8s ease-out, visibility .8s; 
 }
 
 .fade-in-num1 {
   opacity: 0;
-  transform: translateX(-70px); /* Adjust the value to control how far it comes in from the side */
+  transform: translateX(-70px); 
   visibility: hidden;
-  transition: opacity 0.8s ease-out, transform 0.8s ease-out, visibility 0.8s; /* Increased duration for a slower transition */
+  transition: opacity 0.8s ease-out, transform 0.8s ease-out, visibility 0.8s; 
 }
 
 .fade-in-num2 {
   opacity: 0;
-  transform: translateX(-110px); /* Adjust the value to control how far it comes in from the side */
+  transform: translateX(-110px); 
   visibility: hidden;
-  transition: opacity 1s ease-out, transform 1s ease-out, visibility 1s; /* Increased duration for a slower transition */
+  transition: opacity 1s ease-out, transform 1s ease-out, visibility 1s; 
 }
 
 .fade-in-num3 {
   opacity: 0;
-  transform: translateX(-150px); /* Adjust the value to control how far it comes in from the side */
+  transform: translateX(-150px); 
   visibility: hidden;
-  transition: opacity 1.2s ease-out, transform 1.2s ease-out, visibility 1.2s; /* Increased duration for a slower transition */
+  transition: opacity 1.2s ease-out, transform 1.2s ease-out, visibility 1.2s; 
 }
 
 .fade-in-num4 {
   opacity: 0;
-  transform: translateX(-190px); /* Adjust the value to control how far it comes in from the side */
+  transform: translateX(-190px); 
   visibility: hidden;
-  transition: opacity 1.4s ease-out, transform 1.4s ease-out, visibility 1.4s; /* Increased duration for a slower transition */
+  transition: opacity 1.4s ease-out, transform 1.4s ease-out, visibility 1.4s; 
 }
 
 .fade-in-visible {
@@ -379,6 +438,105 @@ button:focus {
   visibility: visible;
 }
 
+/* @media (max-width: 767px) {
+  .fade-in {
+    opacity: 0;
+    transform: translateX(-25px); 
+    visibility: hidden;
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out, visibility 0.8s; 
+  }
+  
+  .fade-in-down {
+    opacity: 0;
+    transform: translateY(-50px); 
+    visibility: hidden;
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out, visibility 0.8s; 
+  }
+  
+  .fade-in-up {
+    opacity: 0;
+    transform: translateY(25px); 
+    visibility: hidden;
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out, visibility 0.8s; 
+  }
+  
+  .fade-in-top {
+    opacity: 0;
+    transform: translateX(-15px); 
+    visibility: hidden;
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out, visibility 0.6s; 
+  }
+  
+  .fade-in-num11 {
+    opacity: 0;
+    transform: translateX(17.5px); 
+    visibility: hidden;
+    transition: opacity .8s ease-out, transform .8s ease-out, visibility .8s; 
+  }
+  
+  .fade-in-num22 {
+    opacity: 0;
+    transform: translateX(22.5px); 
+    visibility: hidden;
+    transition: opacity .8s ease-out, transform .8s ease-out, visibility .8s; 
+  }
+  
+  .fade-in-num33 {
+    opacity: 0;
+    transform: translateX(27.5px); 
+    visibility: hidden;
+    transition: opacity .8s ease-out, transform .8s ease-out, visibility .8s; 
+  }
+  
+  .fade-in-num44 {
+    opacity: 0;
+    transform: translateX(32.5px); 
+    visibility: hidden;
+    transition: opacity .8s ease-out, transform .8s ease-out, visibility .8s; 
+  }
+  
+  .fade-in-num1 {
+    opacity: 0;
+    transform: translateX(-35px); 
+    visibility: hidden;
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out, visibility 0.8s; 
+  }
+  
+  .fade-in-num2 {
+    opacity: 0;
+    transform: translateX(-55px); 
+    visibility: hidden;
+    transition: opacity 1s ease-out, transform 1s ease-out, visibility 1s; 
+  }
+  
+  .fade-in-num3 {
+    opacity: 0;
+    transform: translateX(-70px); 
+    visibility: hidden;
+    transition: opacity 1.2s ease-out, transform 1.2s ease-out, visibility 1.2s; 
+  }
+  
+  .fade-in-num4 {
+    opacity: 0;
+    transform: translateX(-90px); 
+    visibility: hidden;
+    transition: opacity 1.4s ease-out, transform 1.4s ease-out, visibility 1.4s; 
+  }
+} */
+
+.cb-button {
+  padding-left: 3%;
+  padding-top: -15%
+}
+
+@media (max-width: 767px) {
+  .cb-button {
+    padding-left: 3%;
+    /* padding-top: 1% !important; */
+    display: flex;
+    justify-content: center;
+  }
+}
 
 .copy-text-button {
   position: relative !important; 
@@ -401,6 +559,25 @@ button:focus {
   color: #F5DEB3;
   transform: translateY(-2px); /* Button moves up slightly */
   box-shadow: 0 4px 6px rgba(0,0,0,0.2); /* Adds shadow to create a lifting effect */
+}
+
+@media (max-width: 767px) { /* Adjust the max-width as needed */
+  .copy-text-button {
+    position: relative !important; 
+    z-index: 999 !important;
+    display: inline-flex;
+    align-items: center;
+    /* padding-right: 10px; */
+    background-color: transparent; /* Initial transparent background */
+    color: black; /* Text color, assuming you want it to be white */
+    border: 2px solid black; /* White border; adjust as needed */
+    padding: 10px 20px; /* Adjust padding as needed */
+    font-size: 10px !important; /* Adjust font size as needed */
+    cursor: pointer; /* Changes the cursor to indicate it's clickable */
+    border-radius: 10px; /* Rounded corners; adjust the value as needed */
+    padding-top: "-50%";
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for background, transform, and box-shadow */
+  }
 }
 
 /* .icon-padding {

@@ -81,7 +81,7 @@ function App() {
           </Col>
           </Row>
           <br></br>
-          <hr style={line}></hr>
+          <hr></hr>
 
           <Row noGutters>
             <Col md={4} style={{ paddingTop: 50, paddingRight: 0 }} className={`fade-in-num2 ${imgVisible ? 'fade-in-visible' : ''}`}>
@@ -101,7 +101,7 @@ function App() {
           </Col>
           </Row>
           <br></br>
-          <hr class="line"></hr>
+          <hr></hr>
 
           <Row noGutters>
             <Col md={4} style={{ paddingTop: 50, paddingRight: 0 }} className={`fade-in-num3 ${imgVisible ? 'fade-in-visible' : ''}`}>

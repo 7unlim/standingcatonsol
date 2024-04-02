@@ -31,9 +31,13 @@ const ImageFade = () => {
 
     return (
         <div className="image-container">
-            <div className="overlay-text" style={{ opacity: secondImageOpacity, transition: 'opacity 0.75s ease' }}>ples buy</div>
-            <img src={nobgcat} alt="Standing Cat" className="image-first" style= {{ opacity: firstImageOpacity, transition: 'opacity .75s ease' }} />
-            <img src={nobgcatcry} alt="Standing Cat is Sad" className="image-second" style={{ opacity: secondImageOpacity, transition: 'opacity 0.75s ease', paddingLeft: "1%" }} />
+            {/* <div className="overlay-text" style={{ opacity: secondImageOpacity }}>ples buy</div> */}
+            <img src={nobgcat} alt="Standing Cat" className="image-first" style= {{ opacity: firstImageOpacity }} />
+            <img src={nobgcatcry} alt="Standing Cat is Sad" className="image-second" style={{ opacity: secondImageOpacity, paddingLeft: "1%" }} />
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
         </div>
     );
 };
