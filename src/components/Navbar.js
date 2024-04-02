@@ -159,18 +159,6 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item> */}
 
-            <Nav.Item>
-              <Nav.Link
-                href="#home3"
-                onClick={(e) => {
-                  e.preventDefault(); // Prevent default anchor link behavior
-                  scrollToSection('home3'); // Scroll to the Home2 section
-                }}
-              >
-                <CgFileDocument style={{ marginBottom: "2px" }} /> How to Buy
-              </Nav.Link>
-            </Nav.Item>
-
             {/* <Nav.Item>
               <Nav.Link
                 // href="https://soumyajitblogs.vercel.app/"
@@ -217,6 +205,18 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
+
+            <Nav.Item>
+              <Nav.Link
+                href="#home3"
+                onClick={(e) => {
+                  e.preventDefault(); // Prevent default anchor link behavior
+                  scrollToSection('home3'); // Scroll to the Home2 section
+                }}
+              >
+                <CgFileDocument style={{ marginBottom: "2px" }} /> How to Buy
+              </Nav.Link>
+            </Nav.Item>
             {/* <Nav.Item className="fork-btn">
               <Button
                 href="https://github.com/soumyajit4419/Portfolio"

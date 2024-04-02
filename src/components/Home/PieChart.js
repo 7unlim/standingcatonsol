@@ -58,7 +58,11 @@ const CustomPieChart = () => {
     series: [{
       name: 'Distribution',
       data: [
-        { name: 'Team', y: 14, color: '#E5AA70' },
+        { name: 'Team', y: 14, color: '#E5AA70',
+        dataLabels: {
+            x: -50,
+            y: -25 // Move the label 10 pixels to the left
+          }},
         { name: 'For the People!', 
         y: 75, 
         color: '#5DA9E9',

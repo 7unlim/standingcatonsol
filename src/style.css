@@ -298,28 +298,28 @@ button:focus {
 
 .fade-in-num11 {
   opacity: 0;
-  transform: translateX(55px); /* Adjust the value to control how far it comes in from the side */
+  transform: translateX(35px); /* Adjust the value to control how far it comes in from the side */
   visibility: hidden;
   transition: opacity .8s ease-out, transform .8s ease-out, visibility .8s; /* Increased duration for a slower transition */
 }
 
 .fade-in-num22 {
   opacity: 0;
-  transform: translateX(65px); /* Adjust the value to control how far it comes in from the side */
+  transform: translateX(45px); /* Adjust the value to control how far it comes in from the side */
   visibility: hidden;
   transition: opacity .8s ease-out, transform .8s ease-out, visibility .8s; /* Increased duration for a slower transition */
 }
 
 .fade-in-num33 {
   opacity: 0;
-  transform: translateX(75px); /* Adjust the value to control how far it comes in from the side */
+  transform: translateX(55px); /* Adjust the value to control how far it comes in from the side */
   visibility: hidden;
   transition: opacity .8s ease-out, transform .8s ease-out, visibility .8s; /* Increased duration for a slower transition */
 }
 
 .fade-in-num44 {
   opacity: 0;
-  transform: translateX(85px); /* Adjust the value to control how far it comes in from the side */
+  transform: translateX(65px); /* Adjust the value to control how far it comes in from the side */
   visibility: hidden;
   transition: opacity .8s ease-out, transform .8s ease-out, visibility .8s; /* Increased duration for a slower transition */
 }
@@ -661,7 +661,7 @@ button:focus {
 .home-about-section {
   position: relative;
   padding-bottom: 70px !important;
-  padding-top: 70px !important;
+  padding-top: -120px !important;
   /* background-color: #80461B; */
   /* background-color: #F6D7B0; */
   background-color: #FAF9F6;
@@ -714,8 +714,8 @@ button:focus {
 .home-questions-section {
   position: relative;
   background-color: #FAF9F6;
-  padding-bottom: 70px !important;
-  padding-top: 50px !important;
+  /* padding-bottom: 70px !important; */
+  padding-top: -50px !important;
 }
 
 .home-social-icons {

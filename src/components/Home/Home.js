@@ -115,14 +115,14 @@ function Home() {
       <div id="home2">
       <Home2 />
       </div>
-      <div id="home3">
-      <Home3 />
-      </div>
       <div id="home4">
       <Home4 />
       </div>
       <div id="home5">
       <Home5 />
+      </div>
+      <div id="home3">
+      <Home3 />
       </div>
       <Home6 />
       {/* <Home7 /> */}
