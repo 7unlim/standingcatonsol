@@ -1,4 +1,4 @@
 # standingcatonsol
 
-http://standingcatonsol.vercel.app
+http://standingcatonsol.com
 
