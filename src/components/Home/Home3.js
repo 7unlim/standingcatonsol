@@ -74,9 +74,10 @@ function App() {
             />
           </Col>
           <Col md={4} style={{ display: 'flex', justifyContent: 'flex-start', marginLeft: '-7%', alignItems: 'center', paddingTop: 50 }} className={`fade-in-num11 ${textVisible ? 'fade-in-visible' : ''}`} ref={textRef}>
-          <CollapsiblePanel title={<span><strong className="main-name">Create</strong> a Solana Wallet</span>} collapse={collapse}>
+            <p className="emphasis"><strong className="main-name">Create</strong> a Solana Wallet</p>
+          {/* <CollapsiblePanel title={<span><strong className="main-name">Create</strong> a Solana Wallet</span>} collapse={collapse}>
                 <span className="drop-down-item1">{text1}</span>
-            </CollapsiblePanel>
+            </CollapsiblePanel> */}
           </Col>
           </Row>
           <br></br>
@@ -93,9 +94,10 @@ function App() {
             />
           </Col>
           <Col md={4} style={{ display: 'flex', justifyContent: 'flex-start', marginLeft: '-7%', alignItems: 'center', paddingTop: 50 }} className={`fade-in-num22 ${textVisible ? 'fade-in-visible' : ''}`} ref={textRef}>
-          <CollapsiblePanel title={<span><strong className="main-name">Get</strong> some Sol</span>} collapse={collapse}>
+          <p className="emphasis"><strong className="main-name">Get </strong>some Sol</p>
+          {/* <CollapsiblePanel title={<span><strong className="main-name">Get</strong> some Sol</span>} collapse={collapse}>
                 <span className="drop-down-item1">{text2}</span>
-            </CollapsiblePanel>
+            </CollapsiblePanel> */}
           </Col>
           </Row>
           <br></br>
@@ -112,9 +114,10 @@ function App() {
             />
           </Col>
           <Col md={4} style={{ display: 'flex', justifyContent: 'flex-start', marginLeft: '-7%', alignItems: 'center', paddingTop: 50 }} className={`fade-in-num33 ${textVisible ? 'fade-in-visible' : ''}`} ref={textRef}>
-          <CollapsiblePanel title={<span><strong className="main-name">Hop</strong> on Jupiter</span>} collapse={collapse}>
+            <p className="emphasis"><strong className="main-name">Hop</strong> on Jupiter</p>
+          {/* <CollapsiblePanel title={<span><strong className="main-name">Hop</strong> on Jupiter</span>} collapse={collapse}>
                 <span className="drop-down-item1">{text3}</span>
-            </CollapsiblePanel>
+            </CollapsiblePanel> */}
           </Col>
           </Row>
           <br></br>
@@ -131,9 +134,10 @@ function App() {
             />
           </Col>
           <Col md={4} style={{ display: 'flex', justifyContent: 'flex-start', marginLeft: '-7%', alignItems: 'center', paddingTop: 50 }} className={`fade-in-num44 ${textVisible ? 'fade-in-visible' : ''}`} ref={textRef}>
-          <CollapsiblePanel title={<span><strong className="main-name">Trade</strong> for <span><strong className="numberlol">Standing Cat</strong> and hold!</span></span>} collapse={collapse}>
+            <p className="emphasis"><strong className="main-name">Trade</strong> for <span><strong className="numberlol">Standing Cat</strong> and hodl!</span></p>
+          {/* <CollapsiblePanel title={<span><strong className="main-name">Trade</strong> for <span><strong className="numberlol">Standing Cat</strong> and hodl!</span></span>} collapse={collapse}>
                 <span className="drop-down-item2">{text4}</span>
-            </CollapsiblePanel>
+            </CollapsiblePanel> */}
           </Col>
           </Row>
           <br></br>
@@ -174,7 +178,7 @@ const [textVisible, textRef] = useFadeInOnScroll();
             /> */}
           {/* </Col> */}
           <h1 ref={textRef} className={`fade-in ${imgVisible ? 'fade-in-visible' : ''}`} style ={{ paddingTop: 50, fontSize: 14 }}>
-                its clickable :D
+                ooo u want to buy so bad :D
               </h1>
               <center>
               <img

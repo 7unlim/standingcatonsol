@@ -282,6 +282,13 @@ button:focus {
   object-position: center center;
 }
 
+.emphasis {
+  font-size: 46px;
+  white-space: nowrap;
+  padding-top: 70px;
+  padding-left: -10px;
+}
+
 .fade-in {
   opacity: 0;
   transform: translateX(-50px); /* Adjust the value to control how far it comes in from the side */
