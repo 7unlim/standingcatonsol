@@ -41,8 +41,7 @@ function Home() {
               </h1>
 
               <h1 className="heading-name" style ={{ paddingTop: 50 }}>
-                That boy chilling fr
-                More extra description stuff blah blah blah lorem ipsum
+              Cat has been standing for so long. Look how tired and sad the cat is. We must help the cat before his legs give out. Buy $STD CAT to support the cat. 
               </h1>
 
               {/* <div style={{ padding: 60, textAlign: "left" }}>

@@ -33,7 +33,10 @@ function Home2() {
               About <span className="main-name"> Standing Cat </span> 
             </h1>
             <p className="home-about-body">
-              Quick BS description of meme coin. Talk about how no tax, no presale, and how this coin will be bullish
+            The cats are taking over and Standing Cat looks to be leading the charge. He may appear to be innocent, but this cat means business. 
+            </p>
+            <p className="home-about-body" style = {{ marginTop: "-10%" }}>
+            NO TAX, LP BURNT, MINT REVOKED. 
             </p>
           </Col>
         </Row>

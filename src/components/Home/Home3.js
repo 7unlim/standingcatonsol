@@ -73,7 +73,7 @@ function App() {
             />
           </Col>
           <Col md={4} style={{ display: 'flex', justifyContent: 'flex-start', marginLeft: '-7%', alignItems: 'center', paddingTop: 50 }} className={`fade-in-num11 ${textVisible ? 'fade-in-visible' : ''}`} ref={textRef}>
-          <CollapsiblePanel title={<span><strong className="main-name">Create</strong> a Wallet</span>} collapse={collapse}>
+          <CollapsiblePanel title={<span><strong className="main-name">Create</strong> a Solana Wallet</span>} collapse={collapse}>
                 <span className="drop-down-item1">{text1}</span>
             </CollapsiblePanel>
           </Col>
@@ -111,7 +111,7 @@ function App() {
             />
           </Col>
           <Col md={4} style={{ display: 'flex', justifyContent: 'flex-start', marginLeft: '-7%', alignItems: 'center', paddingTop: 50 }} className={`fade-in-num33 ${textVisible ? 'fade-in-visible' : ''}`} ref={textRef}>
-          <CollapsiblePanel title={<span><strong className="main-name">Connect</strong> to DEXscreener/Jupiter</span>} collapse={collapse}>
+          <CollapsiblePanel title={<span><strong className="main-name">Hop</strong> on Jupiter</span>} collapse={collapse}>
                 <span className="drop-down-item2">{text3}</span>
             </CollapsiblePanel>
           </Col>
