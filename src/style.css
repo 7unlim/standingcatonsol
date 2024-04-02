@@ -62,7 +62,7 @@ body {
     margin-left: -80%;
     width: 10%;
     height: 10%;
-    font-size: 6px !important;
+    font-size: 5px !important;
   }
 }
 
@@ -466,13 +466,17 @@ button:focus {
   }
   
   .fade-in-down {
-    transform: translateY(-25px) !important; 
-    transition: opacity 0.5s ease-out, transform 0.5s ease-out, visibility 0.5s !important; 
+    transform: none !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+    transition: none !important; 
   }
   
   .fade-in-up {
-    transform: translateY(12.5px) !important; 
-    transition: opacity 0.5s ease-out, transform 0.5s ease-out, visibility 0.5s !important; 
+    transform: none !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+    transition: none !important; 
   }
   
   .fade-in-top {
@@ -501,23 +505,31 @@ button:focus {
   }
   
   .fade-in-num1 {
-    transform: translateX(-10px) !important; 
-    transition: opacity 0.6s ease-out, transform 0.6s ease-out, visibility 0.6s !important; 
+    transform: none !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+    transition: none !important; 
   }
   
   .fade-in-num2 {
-    transform: translateX(-13px) !important; 
-    transition: opacity 0.7s ease-out, transform 0.7s ease-out, visibility 0.7s !important; 
+    transform: none !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+    transition: none !important; 
   }
   
   .fade-in-num3 {
-    transform: translateX(-16px) !important; 
-    transition: opacity 0.58 ease-out, transform 0.8s ease-out, visibility 0.8s !important; 
+    transform: none !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+    transition: none !important;
   }
   
   .fade-in-num4 {
-    transform: translateX(-19px) !important;  
-    transition: opacity 0.9s ease-out, transform 0.9s ease-out, visibility 0.9s !important; 
+    transform: none !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+    transition: none !important;
   }
 }
 
