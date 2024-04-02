@@ -37,6 +37,7 @@ const CustomPieChart = () => {
         dataLabels: {
           enabled: true,
           format: '<b>{point.name}</b>: {point.percentage:.1f} %',
+          distance: 25, // Increase the distance to move labels (and their lines) further out
           style: {
             color: '#333333', // Dark text for readability
             fontSize: '18px' // Increase the font size
@@ -57,10 +58,20 @@ const CustomPieChart = () => {
     series: [{
       name: 'Distribution',
       data: [
-        { name: 'For the People!', y: 75, color: '#5DA9E9' },
+        { name: 'For the People!', 
+        y: 75, 
+        color: '#5DA9E9',
+        dataLabels: {
+          x: -90,
+          y: 25 // Move the label 10 pixels to the left
+        }},
         { name: 'Team', y: 14, color: '#E5AA70' },
         { name: 'Marketing', y: 3, color: '#F7CAC9' },
-        { name: 'Airdrop to Coin Owners', y: 8, color: '#9E7BFF' },
+        { name: 'Airdrop to Coin Owners', y: 8, color: '#9E7BFF', 
+        dataLabels: {
+            x: 160,
+            y: -30 // Move the label 10 pixels to the left
+          } },
       ],
     }],
     legend: {
