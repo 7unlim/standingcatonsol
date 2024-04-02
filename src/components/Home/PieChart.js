@@ -58,14 +58,14 @@ const CustomPieChart = () => {
     series: [{
       name: 'Distribution',
       data: [
+        { name: 'Team', y: 14, color: '#E5AA70' },
         { name: 'For the People!', 
         y: 75, 
         color: '#5DA9E9',
         dataLabels: {
-          x: -90,
+          x: 90,
           y: 25 // Move the label 10 pixels to the left
         }},
-        { name: 'Team', y: 14, color: '#E5AA70' },
         { name: 'Marketing', y: 3, color: '#F7CAC9' },
         { name: 'Airdrop to Coin Owners', y: 8, color: '#9E7BFF', 
         dataLabels: {
