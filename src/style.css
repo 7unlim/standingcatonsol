@@ -675,6 +675,22 @@ button:focus {
   /* background-color: #C8B7A9; */
 }
 
+.overlay-image {
+  width: '45%' !important;
+  height: '55%' !important;
+}
+
+.highcharts-custom .overlay-image {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  width: 70%; /* Adjust based on pie chart size */
+  height: auto;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  object-fit: cover;
+}
+
 
 .home-about-description {
   color: black !important;
@@ -685,7 +701,7 @@ button:focus {
 
 .home-about-body {
   padding-top: 50px;
-  font-size: 25px !important;
+  font-size: 32px !important;
   text-align: left;
   width: 90%;
   padding-left: 50px;
@@ -722,7 +738,7 @@ button:focus {
   position: relative;
   background-color: #FAF9F6;
   /* padding-bottom: 70px !important; */
-  padding-top: -50px !important;
+  padding-top: -70px !important;
 }
 
 .home-social-icons {

@@ -3,7 +3,7 @@ import { FaCopy } from "react-icons/fa6";
 
 const CopyButton = () => {
   // Step 2: Use useState to manage the button text
-  const [buttonText, setButtonText] = useState('GPjNUrcXpUMv22kWiZwieMDzP2eNz8NgmDfb48LpDM3K');
+  const [buttonText, setButtonText] = useState('7EKcVq8hMqEZUCjTXhSkeAZd8UcD4wFuYeey4RBPBCg9');
   const [paddingText, setPaddingText] = useState(` `);
   // Step 3: Define the onClick event handler
   const handleButtonClick = () => {

@@ -37,7 +37,7 @@ function Home() {
             <Col md={7} className="home-header">
               <h1 className="heading" style ={{ paddingTop: 50 }}>
                 Standing Cat
-                <strong className="main-name"> ($STD CAT)</strong>
+                <strong className="main-name"> $STDCAT</strong>
               </h1>
 
               <h1 className="heading-name" style ={{ paddingTop: 50 }}>
@@ -50,7 +50,7 @@ function Home() {
               <ul className="home-about-social-links" style= {{ paddingTop: 50 }}>
                 <li className="social-icons">
                   <a
-                    href="https://twitter.com/Soumyajit4419"
+                    href="https://t.me/+mXR3AgvoyYo5ZDk5"
                     target="_blank"
                     rel="noreferrer"
                     className="icon-color  home-social-icons"
@@ -60,7 +60,7 @@ function Home() {
                 </li>
                 <li className="social-icons">
                   <a
-                    href="https://twitter.com/Soumyajit4419"
+                    href="https://twitter.com/standingcatcoin"
                     target="_blank"
                     rel="noreferrer"
                     className="icon-color  home-social-icons"

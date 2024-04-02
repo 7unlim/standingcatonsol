@@ -17,7 +17,7 @@ function Footer() {
           <h3></h3>
         </Col>
         <Col md="6" className="footer-copywright">
-          <h3>DISCLAIMER: Standing Cat meme coin is simply for entertainment purposes only. Standing Cat holds no intrinsic value or expectation of financial return. When buying $STD Cat, you are acknowledging that you have read this disclaimer. </h3>
+          <h3>DISCLAIMER: Standing Cat meme coin is simply for entertainment purposes only. $STDCAT holds no intrinsic value or expectation of financial return. When buying $STDCAT, you are acknowledging that you have read this disclaimer. </h3>
         </Col>
         <Col md="3" className="footer-body">
           <h3></h3>

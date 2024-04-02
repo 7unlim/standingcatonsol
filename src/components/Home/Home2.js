@@ -11,6 +11,7 @@ import { FaLinkedinIn } from "react-icons/fa";
 import catBull from "../../Assets/therealestcatbull.png";
 import { useInView } from 'react-intersection-observer'; // Import the hook
 import useFadeInOnScroll from "./UseFadeInOnScroll.js"
+import catArmy from "../../Assets/catarmy.jpeg";
 
 
 function Home2() {
@@ -32,18 +33,62 @@ function Home2() {
             <h1 style={{ fontSize: "65px" }}>
               About <span className="main-name"> Standing Cat </span> 
             </h1>
-            <p className="home-about-body">
-            The cats are taking over and Standing Cat looks to be leading the charge. He may appear to be innocent, but this cat means business. 
+            <center>
+            <p style = {{ fontSize: "32px", paddingTop: "5%" }}>
+            The cats are taking over.
             </p>
-            <p className="home-about-body" style = {{ marginTop: "-10%" }}>
-            NO TAX, LP BURNT, MINT REVOKED. 
+            <p style={{ fontSize: "32px", marginTop: "-2.5%" }}>
+            Standing cat may appear to be innocent, but this cat means business. He WILL be the last one standing.
             </p>
+            <p style = {{ fontSize: "44px", marginTop: "10%" }}>
+            <strong style= {{ color: "#F5DEB3"}}>NO</strong> TAX, LP <strong style = {{ color : "#F5DEB3" }}>BURNT</strong>, MINT <strong style = {{ color : "#F5DEB3" }}>REVOKED</strong>
+            </p>
+            </center>
           </Col>
         </Row>
+        <br></br>
+        <br></br>
+        <br></br>
         <Row>
-          <Col>
+        {/* <Col md={6} className={`home-about-description fade-in ${textVisible ? 'fade-in-visible' : ''}`} ref={textRef}>
+          </Col> */}
+          {/* <center> */}
+          {/* <container style = {{ marginLeft: "-10%" }}> */}
+          <Col md={4}>
+          <img
+              src={catArmy}
+              alt="home pic"
+              className={`img-fluid fade-in ${textVisible ? 'fade-in-visible' : ''}`} ref={textRef}
+              // className="img-fluid"
+              style={{ height: '100%', width: '100%', border: '3px solid black', borderRadius: '20px', // Make the border rounded
+              objectFit: 'cover'}}
+            />
+            {/* <center> */}
+            {/* <p style= {{ paddingTop: "5%"}} >
+          Standing cat leads the cats into battle!
+            </p> */}
+            {/* </center> */}
           </Col>
+          {/* </center> */}
+          <Col md={8}>
+            <center className={`fade-in-num33 ${textVisible ? 'fade-in-visible' : ''}`} ref={textRef}>
+              <center>
+          <p style= {{ paddingTop: "8%", fontSize: "36px", marginBottom: "10%" }}>
+          Standing cat emerges to lead the cats to glory over the dogs.
+            </p>
+            </center>
+            <p style= {{ fontSize: "28px", marginTop: "-5%" }}>
+            Forged in the fire, these cats are here to stay.
+            </p>
+            </center>
+          </Col>
+          {/* </container> */}
         </Row>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
         <br></br>
         <br></br>
         <br></br>
