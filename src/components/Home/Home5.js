@@ -30,6 +30,9 @@ function Home5() {
             </h1>
           </Col>
           </center>
+          <br></br>
+          <br></br>
+          <br></br>
           <center>
           <Row>
           <Col md={4} ref={imgRef} className={`fade-in ${imgVisible ? 'fade-in-visible' : ''}`}>

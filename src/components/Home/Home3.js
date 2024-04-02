@@ -178,7 +178,7 @@ const [textVisible, textRef] = useFadeInOnScroll();
             /> */}
           {/* </Col> */}
           <h1 ref={textRef} className={`fade-in ${imgVisible ? 'fade-in-visible' : ''}`} style ={{ paddingTop: 50, fontSize: 14 }}>
-                ooo u want to buy so bad :D
+                ooo u want to buy so bad :P
               </h1>
               <center>
               <img
