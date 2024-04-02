@@ -45,7 +45,7 @@ function Home4() {
               </div> */}
             </Col>
               
-            <Col md={7} style={{ paddingRight: "10%", marginTop: "-5%" }}>
+            <Col md={7} style={{ paddingRight: "10%", marginTop: "-5%", marginLeft: "-10%" }}>
               {/* <img
                 // src={homeLogo}
                 src={piechart}
