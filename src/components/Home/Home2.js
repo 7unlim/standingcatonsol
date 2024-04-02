@@ -54,7 +54,7 @@ function Home2() {
           </Col> */}
           {/* <center> */}
           {/* <container style = {{ marginLeft: "-10%" }}> */}
-          <Col md={4}>
+          <Col md={4} className="catarmy">
           <img
               src={catArmy}
               alt="home pic"
@@ -70,8 +70,9 @@ function Home2() {
             {/* </center> */}
           </Col>
           {/* </center> */}
-          <Col md={8} className="catarmy">
+          <Col md={8}>
             <center className={`fade-in-num33 ${textVisible ? 'fade-in-visible' : ''}`} ref={textRef}>
+              <div className="desc1">
               <center>
           <p style= {{ paddingTop: "8%", fontSize: "36px", marginBottom: "10%" }}>
           Standing cat emerges to lead the cats to glory over the dogs.
@@ -80,6 +81,7 @@ function Home2() {
             <p style= {{ fontSize: "28px", marginTop: "-5%" }}>
             Forged in the fire, these cats are here to stay.
             </p>
+            </div>
             </center>
           </Col>
           {/* </container> */}
