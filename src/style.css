@@ -296,6 +296,20 @@ button:focus {
   transition: opacity 0.8s ease-out, transform 0.8s ease-out, visibility 0.8s; /* Increased duration for a slower transition */
 }
 
+.fade-in-down {
+  opacity: 0;
+  transform: translateY(-100px); /* Adjust the value to control how far it comes in from the side */
+  visibility: hidden;
+  transition: opacity 0.8s ease-out, transform 0.8s ease-out, visibility 0.8s; /* Increased duration for a slower transition */
+}
+
+.fade-in-up {
+  opacity: 0;
+  transform: translateY(50px); /* Adjust the value to control how far it comes in from the side */
+  visibility: hidden;
+  transition: opacity 0.8s ease-out, transform 0.8s ease-out, visibility 0.8s; /* Increased duration for a slower transition */
+}
+
 .fade-in-top {
   opacity: 0;
   transform: translateX(-30px); /* Adjust the value to control how far it comes in from the side */

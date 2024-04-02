@@ -114,7 +114,7 @@ function App() {
             />
           </Col>
           <Col md={4} style={{ display: 'flex', justifyContent: 'flex-start', marginLeft: '-7%', alignItems: 'center', paddingTop: 50 }} className={`fade-in-num33 ${textVisible ? 'fade-in-visible' : ''}`} ref={textRef}>
-            <p className="emphasis"><strong className="main-name">Hop</strong> on Jupiter</p>
+            <p className="emphasis"><strong className="main-name">Hop</strong> on Raydium</p>
           {/* <CollapsiblePanel title={<span><strong className="main-name">Hop</strong> on Jupiter</span>} collapse={collapse}>
                 <span className="drop-down-item1">{text3}</span>
             </CollapsiblePanel> */}

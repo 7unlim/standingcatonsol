@@ -71,7 +71,7 @@ const CustomPieChart = () => {
           y: 25 // Move the label 10 pixels to the left
         }},
         { name: 'Marketing', y: 3, color: '#F7CAC9' },
-        { name: 'Airdrop to Coin Owners', y: 8, color: '#9E7BFF', 
+        { name: 'Airdrop to Cat Owners', y: 8, color: '#9E7BFF', 
         dataLabels: {
             x: 160,
             y: -30 // Move the label 10 pixels to the left
