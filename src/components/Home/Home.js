@@ -70,7 +70,7 @@ function Home() {
                 </li>
                 <li className="social-icons">
                   <a
-                    href="https://linktr.ee/standingcatcoin"
+                    href="https://dexscreener.com/solana/GKs3M3jS5gSR2dhMucVNzNVHHNo4kSEU7auWtwGJi1k3"
                     target="_blank"
                     rel="noreferrer"
                     className="icon-color  home-social-icons"
