@@ -20,36 +20,7 @@ function Home2() {
   return (
     <Container fluid className="home-buy-section" id="about">
       <Container style= {{ paddingTop: "5%" }}>
-        <Row>
-          <Col md={4} style={{ paddingTop: 50 }} ref={imgRef} className={`fade-in ${imgVisible ? 'fade-in-visible' : ''}`}>
-            <img
-              src={catBull}
-              alt="home pic"
-              className="img-fluid"
-              style={{ maxHeight: '100%' }}
-            />
-          </Col>
-          <Col md={8} className={`home-about-description fade-in ${textVisible ? 'fade-in-visible' : ''}`} ref={textRef}>
-            <h1 style={{ fontSize: "65px" }}>
-              About <span className="main-name"> Standing Cat </span> 
-            </h1>
-            <center>
-            <p style = {{ fontSize: "32px", paddingTop: "5%" }}>
-            The cats are taking over.
-            </p>
-            <p style={{ fontSize: "32px", marginTop: "-2.5%" }}>
-            Standing cat may appear to be innocent, but this cat means business. He WILL be the last one standing.
-            </p>
-            <p style = {{ fontSize: "44px", marginTop: "10%" }}>
-            <strong style= {{ color: "#F5DEB3"}}>NO</strong> TAX, LP <strong style = {{ color : "#F5DEB3" }}>BURNT</strong>, MINT <strong style = {{ color : "#F5DEB3" }}>REVOKED</strong>
-            </p>
-            </center>
-          </Col>
-        </Row>
-        <br></br>
-        <br></br>
-        <br></br>
-        <Row>
+      <Row>
         {/* <Col md={6} className={`home-about-description fade-in ${textVisible ? 'fade-in-visible' : ''}`} ref={textRef}>
           </Col> */}
           {/* <center> */}
@@ -71,6 +42,9 @@ function Home2() {
           </Col>
           {/* </center> */}
           <Col md={8}>
+          <h1 style={{ fontSize: "65px" }}>
+              <span className="main-name"> Standing Cat </span> Origin Story
+            </h1>
             <center className={`fade-in-num33 ${textVisible ? 'fade-in-visible' : ''}`} ref={textRef}>
               <div className="desc1">
               <center>
@@ -86,6 +60,33 @@ function Home2() {
           </Col>
           {/* </container> */}
         </Row>
+        {/* <br></br>
+        <br></br>
+        <br></br> */}
+        <Row>
+          <Col md={4} style={{ paddingTop: 50 }} ref={imgRef} className={`fade-in ${imgVisible ? 'fade-in-visible' : ''}`}>
+            <img
+              src={catBull}
+              alt="home pic"
+              className="img-fluid"
+              style={{ maxHeight: '100%' }}
+            />
+          </Col>
+          <Col md={8} className={`home-about-description fade-in ${textVisible ? 'fade-in-visible' : ''}`} ref={textRef}>
+            <center>
+            <p style = {{ fontSize: "32px", paddingTop: "5%" }}>
+            The cats are taking over.
+            </p>
+            <p style={{ fontSize: "32px", marginTop: "-2.5%" }}>
+            Standing cat may appear to be innocent, but this cat means business. He WILL be the last one standing.
+            </p>
+            <p style = {{ fontSize: "44px", marginTop: "10%" }}>
+            <strong style= {{ color: "#F5DEB3"}}>NO</strong> TAX, LP <strong style = {{ color : "#F5DEB3" }}>BURNT</strong>, MINT <strong style = {{ color : "#F5DEB3" }}>REVOKED</strong>
+            </p>
+            </center>
+          </Col>
+        </Row>
+        
         <br></br>
         <br></br>
         <br></br>
