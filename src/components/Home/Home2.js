@@ -32,8 +32,10 @@ function Home2() {
               className={`img-fluid fade-in ${textVisible ? 'fade-in-visible' : ''}`} ref={textRef}
               // className="img-fluid"
               style={{ height: '100%', width: '100%', border: '3px solid black', borderRadius: '20px', // Make the border rounded
-              objectFit: 'cover'}}
+              objectFit: 'cover', peaddingBottom: '5%'}}
             />
+            <br></br>
+            <br></br>
             {/* <center> */}
             {/* <p style= {{ paddingTop: "5%"}} >
           Standing cat leads the cats into battle!
