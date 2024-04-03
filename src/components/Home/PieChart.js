@@ -58,24 +58,25 @@ const CustomPieChart = () => {
     series: [{
       name: 'Distribution',
       data: [
-        { name: 'Team', y: 14, color: '#E5AA70',
-        dataLabels: {
-            x: -50,
-            y: -25 // Move the label 10 pixels to the left
-          }},
-        { name: 'For the People!', 
-        y: 75, 
+        { name: 'Pool', 
+        y: 76, 
         color: '#5DA9E9',
         dataLabels: {
-          x: 90,
+          x: -90,
           y: 25 // Move the label 10 pixels to the left
         }},
-        { name: 'Marketing', y: 3, color: '#F7CAC9' },
-        { name: 'Airdrop to Cat Owners', y: 8, color: '#9E7BFF', 
-        dataLabels: {
-            x: 160,
-            y: -30 // Move the label 10 pixels to the left
-          } },
+        { name: 'Treasury', y: 1, color: '#F7CAC9', dataLabels: {distance: 30, connectorPadding: 10}},
+        { name: 'Team', y: 12, color: '#9E7BFF', dataLabels: {distance: 30, connectorPadding: 10}},
+          { name: 'Airdrop', y: 4, color: 'skyblue', dataLabels: {distance: 30, connectorPadding: 10, y: -7}},
+          { name: 'Investors', y: 4, color: 'lightgreen', dataLabels: {distance: 30, connectorPadding: 10, y: -10 }},
+          { name: 'Marketing', y: 3, color: '#E5AA70', dataLabels: {distance: 30, connectorPadding: 10, y: -17, x: 25}},
+          // { name: 'Team', y: 14, color: '#E5AA70'},
+        // { name: 'Marketing', y: 3, color: '#F7CAC9' },
+        // { name: 'Airdrop to Cat Owners', y: 8, color: '#9E7BFF', 
+        // dataLabels: {
+        //     x: 160,
+        //     y: -30 // Move the label 10 pixels to the left
+        //   } },
       ],
     }],
     legend: {

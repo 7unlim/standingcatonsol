@@ -13,7 +13,7 @@ import piechart from "../../Assets/piechart.png"
 import useFadeInOnScroll from "./UseFadeInOnScroll.js"
 import { useInView } from 'react-intersection-observer'; // Import the hook
 import CustomPieChart from "./PieChart.js"
-import thepie from "../../Assets/piechartmobile.png"
+import thepie from "../../Assets/pieupdated.png"
 // import { PieChart, pieArcLabelClasses } from '@mui/x-charts/PieChart';
 
 
